@@ -29,10 +29,10 @@ Download from [ollama.com/download](https://ollama.com/download)
 ## Step 2: Run Your First Model (3 minutes)
 
 ```bash
-ollama run llama3.1:8b
+ollama run llama3.3:8b
 ```
 
-This downloads Llama 3.1 8B (~4.7 GB) and starts an interactive chat. Type a message and press Enter.
+This downloads Llama 3.3 8B (~4.7 GB) and starts an interactive chat. Type a message and press Enter.
 
 ```
 >>> What is the capital of France?
@@ -48,12 +48,12 @@ Type `/bye` to exit.
 
 | Command | Model | Size | Good For |
 |---|---|---|---|
-| `ollama run llama3.1:8b` | Llama 3.1 8B | 4.7 GB | General chat, reasoning |
+| `ollama run llama3.3:8b` | Llama 3.3 8B | 4.7 GB | General chat, reasoning |
 | `ollama run mistral` | Mistral 7B | 4.1 GB | Fast, good quality |
-| `ollama run codellama:7b` | Code Llama 7B | 3.8 GB | Code generation |
-| `ollama run phi3:mini` | Phi-3 Mini | 2.3 GB | Small, surprisingly capable |
-| `ollama run llama3.1:70b` | Llama 3.1 70B | 40 GB | Best open model (needs 48GB+ VRAM) |
-| `ollama run gemma2:9b` | Gemma 2 9B | 5.4 GB | Google model, good at facts |
+| `ollama run qwen2.5-coder:7b` | Qwen 2.5 Coder 7B | 3.8 GB | Code generation |
+| `ollama run phi4-mini` | Phi-4 Mini | 2.3 GB | Small, surprisingly capable |
+| `ollama run llama3.3:70b` | Llama 3.3 70B | 40 GB | Best open model (needs 48GB+ VRAM) |
+| `ollama run gemma3:12b` | Gemma 3 12B | 5.4 GB | Google model, good at facts |
 
 Full model list: [ollama.com/library](https://ollama.com/library)
 
@@ -81,7 +81,7 @@ Ollama runs an OpenAI-compatible API at `http://localhost:11434`:
 curl http://localhost:11434/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "llama3.1:8b",
+    "model": "llama3.3:8b",
     "messages": [{"role": "user", "content": "Hello!"}]
   }'
 ```
@@ -93,7 +93,7 @@ from openai import OpenAI
 
 client = OpenAI(base_url="http://localhost:11434/v1", api_key="unused")
 response = client.chat.completions.create(
-    model="llama3.1:8b",
+    model="llama3.3:8b",
     messages=[{"role": "user", "content": "Hello!"}]
 )
 print(response.choices[0].message.content)
@@ -108,13 +108,13 @@ print(response.choices[0].message.content)
 | Build a RAG pipeline | Check RAG & Knowledge section in [README](../README.md#rag--knowledge) |
 | Code completion in VS Code | Look at [Continue](https://github.com/continuedev/continue) or [Tabby](https://github.com/TabbyML/tabby) |
 | Speech-to-text locally | Start with [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) |
-| Image generation | Try [ComfyUI](https://github.com/comfyanonymous/ComfyUI) or [Fooocus](https://github.com/lllyasviel/Fooocus) |
+| Image generation | Try [ComfyUI](https://github.com/Comfy-Org/ComfyUI) or [Fooocus](https://github.com/lllyasviel/Fooocus) |
 
 ## Troubleshooting
 
 **Model downloads slowly**: Ollama stores models in `~/.ollama/models`. Make sure you have enough disk space.
 
-**Out of memory (OOM)**: Your model is too large for your GPU. Try a smaller quantization (`ollama run llama3.1:8b-q4_0`) or a smaller model.
+**Out of memory (OOM)**: Your model is too large for your GPU. Try a smaller quantization (`ollama run llama3.3:8b-q4_0`) or a smaller model.
 
 **No GPU acceleration**: Run `ollama ps` to check if GPU is being used. For NVIDIA, ensure CUDA drivers are installed (`nvidia-smi` should work).
 
