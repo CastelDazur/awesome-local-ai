@@ -45,7 +45,8 @@ Run LLMs on your machine.
 - [SGLang](https://github.com/sgl-project/sglang) - Structured generation with RadixAttention for fast multi-turn conversations. Great for agentic workloads.
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - NVIDIA optimized inference. Best throughput on NVIDIA hardware, more setup required. Production deployments.
 - [Candle](https://github.com/huggingface/candle) - Minimalist ML framework in Rust. Low memory footprint, good for embedded use cases.
-- [GPT4All](https://github.com/nomic-ai/gpt4all) - Desktop app that just works. Download a model, start chatting. Good for non-technical users.
+- [GPT4All](https://github.com/nomic-ai/gpt4all) - Desktop app that just works. Download a model, start chatting.
+- [LM Studio](https://lmstudio.ai/) - Desktop app for discovering, downloading, and running local LLMs. Built-in chat UI and local API server. Good for non-technical users.
 - [IPEX-LLM](https://github.com/intel/ipex-llm) - Optimized inference for Intel GPUs (Arc, Flex, Max series). The only option with native Intel GPU support.
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - Rust-based inference with ISQ quantization and multimodal support. Fast and memory-efficient.
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal deployment of LLMs across hardware backends. Compile once, run anywhere (GPU, mobile, browser).
@@ -123,6 +124,8 @@ Know what your GPU is actually doing.
 - [GPUStack](https://github.com/gpustack/gpustack) - Manage GPU clusters. Scheduling, monitoring, multi-node inference. Like Kubernetes for GPUs.
 - [nvitop](https://github.com/XuehaiPan/nvitop) - Interactive NVIDIA GPU monitoring. Like htop but for GPUs. Real-time process and memory tracking.
 - [Triton Inference Server](https://github.com/triton-inference-server/server) - NVIDIA production inference server with model analytics. Enterprise-grade monitoring.
+- [Langfuse](https://github.com/langfuse/langfuse) - Open-source LLM observability. Tracing, evals, and prompt management. Self-hostable.
+- [LangSmith](https://smith.langchain.com/) - LLM development platform with tracing, evaluation, and debugging. Cloud-based but pairs with local models.
 - [nvidia-smi](https://developer.nvidia.com/nvidia-system-management-interface) - Built-in NVIDIA tool. `watch -n 1 nvidia-smi` is your friend.
 
 ## UI & Interfaces
