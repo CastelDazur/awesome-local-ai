@@ -1,5 +1,10 @@
 # Awesome Local AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![GitHub stars](https://img.shields.io/github/stars/CastelDazur/awesome-local-ai?style=social)](https://github.com/CastelDazur/awesome-local-ai/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/CastelDazur/awesome-local-ai)](https://github.com/CastelDazur/awesome-local-ai/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+
 > A curated list of tools, frameworks, and resources for running AI on your own hardware. No cloud required.
 
 If you run models on your own GPU instead of calling an API, this list is for you.
@@ -18,6 +23,7 @@ If you run models on your own GPU instead of calling an API, this list is for yo
 - [Image & Video](#image--video)
 - [Privacy-First Tools](#privacy-first-tools)
 - [Unified Gateways](#unified-gateways)
+- [Guides](#guides)
 - [Hardware Guides](#hardware-guides)
 
 ---
@@ -52,7 +58,7 @@ Make models smaller so they fit on your GPU.
 - [bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) - 8-bit and 4-bit quantization for PyTorch. Required for QLoRA fine-tuning.
 - [xFormers](https://github.com/facebookresearch/xformers) - Memory-efficient attention implementations. Saves VRAM on long contexts.
 - [NVIDIA Model Optimizer](https://github.com/NVIDIA/TensorRT-Model-Optimizer) - Quantization, pruning, and distillation tools for TensorRT and vLLM.
-- [llama.cpp convert scripts](https://github.com/ggml-org/llama.cpp/tree/master/convert_hf_to_gguf.py) - Convert HuggingFace models to GGUF format.
+- [llama.cpp convert scripts](https://github.com/ggml-org/llama.cpp/blob/master/convert_hf_to_gguf.py) - Convert HuggingFace models to GGUF format.
 
 ## RAG & Knowledge
 
@@ -154,6 +160,16 @@ One API to rule them all.
 - [Ollama Python](https://github.com/ollama/ollama-python) - Python client for Ollama API.
 - [Ollama JS](https://github.com/ollama/ollama-js) - JavaScript/TypeScript client for Ollama.
 - [OpenRouter](https://openrouter.ai) - Unified API for many providers. Not local, but useful as cloud fallback.
+
+## Guides
+
+Step-by-step guides for common tasks.
+
+- [Getting Started](guides/getting-started.md) - Install Ollama, run your first model, add a chat UI, use the API. Under 10 minutes.
+- [Choosing an Inference Engine](guides/choosing-inference-engine.md) - Decision tables, performance benchmarks, and model format compatibility across 10 engines.
+- [VRAM Requirements](guides/vram-requirements.md) - GPU memory calculator, what fits on your card, popular model sizes, and tips for fitting larger models.
+
+---
 
 ## Hardware Guides
 
