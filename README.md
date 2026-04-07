@@ -52,6 +52,7 @@ Run LLMs on your machine.
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal deployment of LLMs across hardware backends. Compile once, run anywhere (GPU, mobile, browser).
 - [Xinference](https://github.com/xorbitsai/inference) - Distributed inference platform for LLMs, speech, images. Built-in model hub and OpenAI-compatible API.
 - [FastChat](https://github.com/lm-sys/FastChat) - Serving platform from LMSYS (creators of Chatbot Arena). Multi-model serving with OpenAI-compatible API.
+- [Aphrodite Engine](https://github.com/PygmalionAI/aphrodite-engine) - High-throughput inference engine forked from vLLM. Optimized for multi-user serving with GPTQ, AWQ, EXL2 support.
 
 ## Python & Language Bindings
 
@@ -97,6 +98,7 @@ Build local knowledge systems without sending your data anywhere.
 - [FAISS](https://github.com/facebookresearch/faiss) - Similarity search library from Meta. Fast, battle-tested. The underlying engine many tools use.
 - [Sentence-Transformers](https://github.com/huggingface/sentence-transformers) - Compute embeddings locally. Pair with any vector DB above. 5000+ pre-trained models.
 - [Unstructured](https://github.com/Unstructured-IO/unstructured) - Extract text from PDFs, Word docs, HTML, images. Pre-processing for RAG pipelines.
+- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI assistants. Persistent context across conversations with local embedding and vector storage.
 
 ## Orchestration & Agents
 
@@ -110,6 +112,7 @@ Coordinate multiple models and tools locally.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Programming framework for LM pipelines. Optimizes prompts and weights automatically. From Stanford NLP.
 - [Dify](https://github.com/langgenius/dify) - Visual workflow builder for LLM apps. Drag-and-drop RAG, agents, chatbots. Self-hostable with local model support.
 - [Flowise](https://github.com/FlowiseAI/Flowise) - Low-code LLM app builder with drag-and-drop UI. Connects to Ollama and local APIs.
+- [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) - Natural language interface to your computer. Runs code locally, controls files and apps. Works with local models via LiteLLM.
 
 ## Model Management
 
@@ -130,6 +133,7 @@ Know what your GPU is actually doing.
 - [Langfuse](https://github.com/langfuse/langfuse) - Open-source LLM observability. Tracing, evals, and prompt management. Self-hostable.
 - [LangSmith](https://smith.langchain.com/) - LLM tracing and evaluation platform. Cloud-based (not local), but useful for debugging local model pipelines.
 - [nvidia-smi](https://developer.nvidia.com/nvidia-system-management-interface) - Built-in NVIDIA tool. `watch -n 1 nvidia-smi` for real-time GPU monitoring.
+- [gpu-memory-guard](https://github.com/CastelDazur/gpu-memory-guard) - Check available VRAM before loading GGUF models. Prevents OOM crashes with a single CLI command.
 
 ## UI & Interfaces
 
@@ -164,6 +168,7 @@ Speech recognition and synthesis on your hardware.
 - [WhisperLive](https://github.com/collabora/WhisperLive) - Real-time streaming transcription. Low latency, works with microphone input.
 - [Bark](https://github.com/suno-ai/bark) - Text-to-audio generation. Voice cloning, music, sound effects. Runs locally on GPU.
 - [F5-TTS](https://github.com/SWivid/F5-TTS) - High-quality text-to-speech with voice cloning from 15s reference audio. Diffusion-based.
+- [Kokoro TTS](https://github.com/hexgrad/kokoro) - Lightweight text-to-speech with natural-sounding voices. 82M parameters, runs on CPU. Apache 2.0 licensed.
 
 ## Image & Video
 
