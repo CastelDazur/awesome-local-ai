@@ -53,6 +53,7 @@ Run LLMs on your machine.
 - [Xinference](https://github.com/xorbitsai/inference) - Distributed inference platform for LLMs, speech, images. Built-in model hub and OpenAI-compatible API.
 - [FastChat](https://github.com/lm-sys/FastChat) - Serving platform from LMSYS (creators of Chatbot Arena). Multi-model serving with OpenAI-compatible API.
 - [Aphrodite Engine](https://github.com/PygmalionAI/aphrodite-engine) - High-throughput inference engine forked from vLLM. Optimized for multi-user serving with GPTQ, AWQ, EXL2 support.
+- [LMDeploy](https://github.com/InternLM/lmdeploy) - Toolkit for compressing, quantizing, and serving LLMs from InternLM. Up to 1.8x throughput vs vLLM on supported models.
 
 ## Python & Language Bindings
 
@@ -113,6 +114,9 @@ Coordinate multiple models and tools locally.
 - [Dify](https://github.com/langgenius/dify) - Visual workflow builder for LLM apps. Drag-and-drop RAG, agents, chatbots. Self-hostable with local model support.
 - [Flowise](https://github.com/FlowiseAI/Flowise) - Low-code LLM app builder with drag-and-drop UI. Connects to Ollama and local APIs.
 - [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) - Natural language interface to your computer. Runs code locally, controls files and apps. Works with local models via LiteLLM.
+- [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - Programmable guardrails for LLM apps from NVIDIA. Input/output filters, fact-checking, dialogue policies. Wraps any local model.
+- [Outlines](https://github.com/dottxt-ai/outlines) - Structured generation for LLMs. Force outputs to follow JSON schema, regex, or context-free grammars. Works with llama.cpp, vLLM, transformers.
+- [Instructor](https://github.com/instructor-ai/instructor) - Reliable structured outputs from any LLM via Pydantic models. Retries on validation failure. Works with local models via Ollama and LiteLLM.
 
 ## Model Management
 
@@ -134,6 +138,8 @@ Know what your GPU is actually doing.
 - [LangSmith](https://smith.langchain.com/) - LLM tracing and evaluation platform. Cloud-based (not local), but useful for debugging local model pipelines.
 - [nvidia-smi](https://developer.nvidia.com/nvidia-system-management-interface) - Built-in NVIDIA tool. `watch -n 1 nvidia-smi` for real-time GPU monitoring.
 - [gpu-memory-guard](https://github.com/CastelDazur/gpu-memory-guard) - Check available VRAM before loading GGUF models. Prevents OOM crashes with a single CLI command.
+- [Garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner from NVIDIA. Probes for prompt injection, data leakage, jailbreaks, hallucination. Test your local model before shipping.
+- [Promptfoo](https://github.com/promptfoo/promptfoo) - CLI and library for evaluating and red-teaming LLM apps. Run test cases against local models, compare prompts, find regressions.
 
 ## UI & Interfaces
 
