@@ -1,10 +1,5 @@
 # Awesome Local AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![GitHub stars](https://img.shields.io/github/stars/CastelDazur/awesome-local-ai?style=social)](https://github.com/CastelDazur/awesome-local-ai/stargazers)
-[![Last commit](https://img.shields.io/github/last-commit/CastelDazur/awesome-local-ai)](https://github.com/CastelDazur/awesome-local-ai/commits/main)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
-
 > A curated list of tools, frameworks, and resources for running AI models on your own hardware. No cloud required.
 
 If you run models on your own GPU instead of calling an API, this list is for you. Every tool listed here works offline after initial setup.
@@ -226,21 +221,10 @@ Figure out what you need and what fits.
 
 ## Contributing
 
-Contributions welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+Contributions welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-Rules:
-- Only include actively maintained projects (commit within last 6 months)
-- One tool per line, one line description
-- No marketing language. Describe what it does, not how great it is
-- Include a personal note if you've used it ("Good for X", "Overkill for Y")
-- Local-first means it runs on your hardware. Cloud-only tools don't belong here
+## Footnotes
 
-## Related Lists
-
-- [awesome-llm](https://github.com/Hannibal046/Awesome-LLM) - Broader LLM resources
-- [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) - Generative AI tools and research
-- [awesome-self-hosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Self-hosted software
-
----
-
-*Maintained by [CastelDazur](https://github.com/CastelDazur). 100+ tools across 15 categories. Updated April 2026.*
+- [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM) - Broader LLM resources.
+- [Awesome Generative AI](https://github.com/steven2358/awesome-generative-ai) - Generative AI tools and research.
+- [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Self-hosted software.
