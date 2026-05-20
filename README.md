@@ -146,6 +146,7 @@ Chat with your local models through a proper interface.
 - [Msty](https://msty.app) - Desktop app connecting to local and remote models. Free tier available. Clean, native feel.
 - [Hollama](https://github.com/fmaclen/hollama) - Minimal web UI for Ollama. Lightweight alternative to Open WebUI. Quick to set up.
 - [SillyTavern](https://github.com/SillyTavern/SillyTavern) - Chat interface with character cards, group chats, extensions. Popular in the creative/RP community.
+- [Ano](https://ano.chat) - Collaborative chat and workspace with a native in-app terminal and integrated AI (like Claude Code). Enables devs to run any local CLI, trigger custom automations, and connect to any MCP server directly from channels.
 
 ## Code Assistants
 
