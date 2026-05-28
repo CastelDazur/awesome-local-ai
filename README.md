@@ -135,6 +135,8 @@ Know what your GPU is actually doing.
 - [gpu-memory-guard](https://github.com/CastelDazur/gpu-memory-guard) - Check available VRAM before loading GGUF models. Prevents OOM crashes with a single CLI command.
 - [Garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner from NVIDIA. Probes for prompt injection, data leakage, jailbreaks, hallucination. Test your local model before shipping.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - CLI and library for evaluating and red-teaming LLM apps. Run test cases against local models, compare prompts, find regressions.
+- [traceAI](https://github.com/future-agi/traceAI) - Open-source OpenTelemetry-native tracing for LLM and agent apps. Auto-instruments 50+ frameworks across Python, TypeScript, Java, and C# (OpenAI, Anthropic, LangChain, LlamaIndex, CrewAI, Bedrock). No vendor lock-in.
+- [ai-evaluation](https://github.com/future-agi/ai-evaluation) - Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge augmentation, and guardrail scanners (jailbreak, PII, prompt-injection); AutoEval pipelines with CI/CD support.
 
 ## UI & Interfaces
 
