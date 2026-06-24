@@ -95,6 +95,7 @@ Build local knowledge systems without sending your data anywhere.
 - [Sentence-Transformers](https://github.com/huggingface/sentence-transformers) - Compute embeddings locally. Pair with any vector DB above. 5000+ pre-trained models.
 - [Unstructured](https://github.com/Unstructured-IO/unstructured) - Extract text from PDFs, Word docs, HTML, images. Pre-processing for RAG pipelines.
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI assistants. Persistent context across conversations with local embedding and vector storage.
+- [Remio](https://remio.ai/) - Local-first AI memory app that indexes files, webpages, recordings, and notes for private retrieval.
 
 ## Orchestration & Agents
 
