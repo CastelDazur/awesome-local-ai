@@ -112,6 +112,7 @@ Coordinate multiple models and tools locally.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - Programmable guardrails for LLM apps from NVIDIA. Input/output filters, fact-checking, dialogue policies. Wraps any local model.
 - [Outlines](https://github.com/dottxt-ai/outlines) - Structured generation for LLMs. Force outputs to follow JSON schema, regex, or context-free grammars. Works with llama.cpp, vLLM, transformers.
 - [Instructor](https://github.com/instructor-ai/instructor) - Reliable structured outputs from any LLM via Pydantic models. Retries on validation failure. Works with local models via Ollama and LiteLLM.
+- [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) - Agent runtime with 56 built-in tools, MCP support, and a five-layer local memory system. Single-agent, not a multi-agent framework. Still in developer preview.
 
 ## Model Management
 
@@ -155,6 +156,7 @@ AI-powered coding without sending your code to the cloud.
 - [Tabby](https://github.com/TabbyML/tabby) - Self-hosted code completion and chat. Runs on your GPU. GitHub Copilot alternative.
 - [Aider](https://github.com/Aider-AI/aider) - AI pair programming in your terminal. Edit files, run tests, commit. Works with local models via Ollama/LiteLLM.
 - [llm](https://github.com/simonw/llm) - CLI tool for interacting with LLMs. Plugins for local models. From the creator of Datasette.
+- [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) - Terminal coding assistant running open-weight models on your machine via a llama.cpp fork. No API key needed. Developer preview, so expect breaking changes.
 
 ## Voice & Audio
 
