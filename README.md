@@ -109,6 +109,7 @@ Coordinate multiple models and tools locally.
 - [Dify](https://github.com/langgenius/dify) - Visual workflow builder for LLM apps. Drag-and-drop RAG, agents, chatbots. Self-hostable with local model support.
 - [Flowise](https://github.com/FlowiseAI/Flowise) - Low-code LLM app builder with drag-and-drop UI. Connects to Ollama and local APIs.
 - [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) - Natural language interface to your computer. Runs code locally, controls files and apps. Works with local models via LiteLLM.
+- [Orkas](https://github.com/Orkas-AI/Orkas) - Desktop multi-agent workspace that can use local OpenAI-compatible model endpoints.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - Programmable guardrails for LLM apps from NVIDIA. Input/output filters, fact-checking, dialogue policies. Wraps any local model.
 - [Outlines](https://github.com/dottxt-ai/outlines) - Structured generation for LLMs. Force outputs to follow JSON schema, regex, or context-free grammars. Works with llama.cpp, vLLM, transformers.
 - [Instructor](https://github.com/instructor-ai/instructor) - Reliable structured outputs from any LLM via Pydantic models. Retries on validation failure. Works with local models via Ollama and LiteLLM.
@@ -191,6 +192,7 @@ Interact with documents without data leaving your machine.
 - [Danswer](https://github.com/danswer-ai/danswer) - Search and chat over internal documents. Can use local models. Self-hosted.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - All-in-one AI desktop app with local RAG and agent support. Connects to Ollama.
 - [Off Grid AI Desktop](https://github.com/off-grid-ai/off-grid-ai-desktop) - Private local-first macOS desktop app: local LLM chat, RAG over your own data, image generation, voice dictation, and MCP connectors. Everything runs on-device, nothing leaves the machine. AGPL-3.0.
+- [light-ocr](https://github.com/arcships/light-ocr) - Offline OCR library and CLI for Node.js and C++. PP-OCRv6 via ONNX Runtime; no Python runtime.
 
 ## Unified Gateways
 
