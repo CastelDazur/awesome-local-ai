@@ -114,6 +114,7 @@ Coordinate multiple models and tools locally.
 - [Outlines](https://github.com/dottxt-ai/outlines) - Structured generation for LLMs. Force outputs to follow JSON schema, regex, or context-free grammars. Works with llama.cpp, vLLM, transformers.
 - [Instructor](https://github.com/instructor-ai/instructor) - Reliable structured outputs from any LLM via Pydantic models. Retries on validation failure. Works with local models via Ollama and LiteLLM.
 - [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Local agent memory lifecycle with SQLite/FTS recall, audit, and forgetting.
+- [Agent Meeting Room](https://github.com/GhravenLabs/Agent-Meeting-Room) - Flask web app for multi-agent group chat over Ollama-compatible models. Debate mode, SSE streaming, optional Obsidian-backed memory.
 
 ## Model Management
 
