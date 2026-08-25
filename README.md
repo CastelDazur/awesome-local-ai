@@ -109,10 +109,11 @@ Coordinate multiple models and tools locally.
 - [Dify](https://github.com/langgenius/dify) - Visual workflow builder for LLM apps. Drag-and-drop RAG, agents, chatbots. Self-hostable with local model support.
 - [Flowise](https://github.com/FlowiseAI/Flowise) - Low-code LLM app builder with drag-and-drop UI. Connects to Ollama and local APIs.
 - [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) - Natural language interface to your computer. Runs code locally, controls files and apps. Works with local models via LiteLLM.
+- [Orkas](https://github.com/Orkas-AI/Orkas) - Desktop multi-agent workspace that can use local OpenAI-compatible model endpoints.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - Programmable guardrails for LLM apps from NVIDIA. Input/output filters, fact-checking, dialogue policies. Wraps any local model.
 - [Outlines](https://github.com/dottxt-ai/outlines) - Structured generation for LLMs. Force outputs to follow JSON schema, regex, or context-free grammars. Works with llama.cpp, vLLM, transformers.
 - [Instructor](https://github.com/instructor-ai/instructor) - Reliable structured outputs from any LLM via Pydantic models. Retries on validation failure. Works with local models via Ollama and LiteLLM.
-- [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) - Agent runtime with 56 built-in tools, MCP support, and a five-layer local memory system. Single-agent, not a multi-agent framework. Still in developer preview.
+- [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Local agent memory lifecycle with SQLite/FTS recall, audit, and forgetting.
 
 ## Model Management
 
@@ -192,6 +193,7 @@ Interact with documents without data leaving your machine.
 - [LocalGPT](https://github.com/PromtEngineer/localGPT) - Chat with documents using local models. Inspired by PrivateGPT with more model options.
 - [Danswer](https://github.com/danswer-ai/danswer) - Search and chat over internal documents. Can use local models. Self-hosted.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - All-in-one AI desktop app with local RAG and agent support. Connects to Ollama.
+- [light-ocr](https://github.com/arcships/light-ocr) - Offline OCR library and CLI for Node.js and C++. PP-OCRv6 via ONNX Runtime; no Python runtime.
 
 ## Unified Gateways
 
