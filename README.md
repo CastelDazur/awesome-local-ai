@@ -192,6 +192,7 @@ Interact with documents without data leaving your machine.
 - [LocalGPT](https://github.com/PromtEngineer/localGPT) - Chat with documents using local models. Inspired by PrivateGPT with more model options.
 - [Danswer](https://github.com/danswer-ai/danswer) - Search and chat over internal documents. Can use local models. Self-hosted.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - All-in-one AI desktop app with local RAG and agent support. Connects to Ollama.
+- [Off Grid AI Desktop](https://github.com/off-grid-ai/off-grid-ai-desktop) - Private local-first macOS desktop app: local LLM chat, RAG over your own data, image generation, voice dictation, and MCP connectors. Everything runs on-device, nothing leaves the machine. AGPL-3.0.
 - [light-ocr](https://github.com/arcships/light-ocr) - Offline OCR library and CLI for Node.js and C++. PP-OCRv6 via ONNX Runtime; no Python runtime.
 
 ## Unified Gateways
