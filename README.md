@@ -138,6 +138,7 @@ Know what your GPU is actually doing.
 - [gpu-memory-guard](https://github.com/CastelDazur/gpu-memory-guard) - Check available VRAM before loading GGUF models. Prevents OOM crashes with a single CLI command.
 - [Garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner from NVIDIA. Probes for prompt injection, data leakage, jailbreaks, hallucination. Test your local model before shipping.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - CLI and library for evaluating and red-teaming LLM apps. Run test cases against local models, compare prompts, find regressions.
+- [llm-judge-jury](https://github.com/CastelDazur/llm-judge-jury) - Score instruction/response pairs with a jury of independent local judges and keep the consensus. Majority vote, arbiter on ties, reason clustering. For cleaning SFT datasets.
 
 ## UI & Interfaces
 
