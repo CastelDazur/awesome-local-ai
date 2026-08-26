@@ -80,6 +80,7 @@ Train and adapt models on your own data locally.
 - [TRL](https://github.com/huggingface/trl) - Transformer Reinforcement Learning. RLHF, DPO, PPO training for language models. Works with PEFT.
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - Web UI for fine-tuning 100+ models. No coding needed. Supports LoRA, QLoRA, full fine-tuning.
 - [torchtune](https://github.com/pytorch/torchtune) - PyTorch-native fine-tuning library. Clean, hackable, well-documented. From the PyTorch team.
+- [qlora-single-gpu-playbook](https://github.com/CastelDazur/qlora-single-gpu-playbook) - Guards for QLoRA on one GPU: VRAM gating, resume without the resume_from_checkpoint hang, checkpoint repair after a crash.
 
 ## RAG & Knowledge
 
