@@ -69,6 +69,7 @@ Make models smaller and faster without retraining.
 - [xformers](https://github.com/facebookresearch/xformers) - Memory-efficient attention implementations. Saves VRAM on long contexts.
 - [NVIDIA Model Optimizer](https://github.com/NVIDIA/TensorRT-Model-Optimizer) - Quantization, pruning, and distillation tools for TensorRT and vLLM.
 - [llama.cpp convert scripts](https://github.com/ggml-org/llama.cpp/blob/master/convert_hf_to_gguf.py) - Convert HuggingFace models to GGUF format. Essential for llama.cpp and Ollama.
+- [merge-quantize-keep-mtp](https://github.com/CastelDazur/merge-quantize-keep-mtp) - Rank-concat merge two LoRA adapters, then verify speculative-decoding (MTP) heads survive GGUF quantization. Dependency-free GGUF header reader.
 
 ## Fine-Tuning
 
