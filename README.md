@@ -63,12 +63,12 @@ Use inference engines from your code.
 
 Make models smaller and faster without retraining.
 
-- [GPTQ](https://github.com/AutoGPTQ/AutoGPTQ) - Post-training quantization for GPT models. 4-bit with minimal quality loss. Widely used on HuggingFace.
+- [GPTQ](https://github.com/AutoGPTQ/AutoGPTQ) - Post-training quantization for GPT models. 4-bit with minimal quality loss. Widely used on Hugging Face.
 - [AWQ](https://github.com/mit-han-lab/llm-awq) - Activation-aware weight quantization. Often better quality than GPTQ at same bit width.
 - [bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) - 8-bit and 4-bit quantization for PyTorch. Required for QLoRA fine-tuning.
 - [xformers](https://github.com/facebookresearch/xformers) - Memory-efficient attention implementations. Saves VRAM on long contexts.
 - [NVIDIA Model Optimizer](https://github.com/NVIDIA/TensorRT-Model-Optimizer) - Quantization, pruning, and distillation tools for TensorRT and vLLM.
-- [llama.cpp convert scripts](https://github.com/ggml-org/llama.cpp/blob/master/convert_hf_to_gguf.py) - Convert HuggingFace models to GGUF format. Essential for llama.cpp and Ollama.
+- [llama.cpp convert scripts](https://github.com/ggml-org/llama.cpp/blob/master/convert_hf_to_gguf.py) - Convert Hugging Face models to GGUF format. Essential for llama.cpp and Ollama.
 - [merge-quantize-keep-mtp](https://github.com/CastelDazur/merge-quantize-keep-mtp) - Rank-concat merge two LoRA adapters, then verify speculative-decoding (MTP) heads survive GGUF quantization. Dependency-free GGUF header reader.
 
 ## Fine-Tuning
@@ -77,7 +77,7 @@ Train and adapt models on your own data locally.
 
 - [Unsloth](https://github.com/unslothai/unsloth) - 2x faster fine-tuning with 80% less memory. QLoRA and LoRA on a single GPU.
 - [axolotl](https://github.com/axolotl-ai-cloud/axolotl) - Streamlined fine-tuning with YAML configs. Supports LoRA, QLoRA, DPO, RLHF. Handles multi-GPU setups.
-- [PEFT](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning from HuggingFace. LoRA, prefix tuning, adapters.
+- [PEFT](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning from Hugging Face. LoRA, prefix tuning, adapters.
 - [TRL](https://github.com/huggingface/trl) - Transformer Reinforcement Learning. RLHF, DPO, PPO training for language models. Works with PEFT.
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - Web UI for fine-tuning 100+ models. No coding needed. Supports LoRA, QLoRA, full fine-tuning.
 - [torchtune](https://github.com/pytorch/torchtune) - PyTorch-native fine-tuning library. Clean, hackable, well-documented. From the PyTorch team.
@@ -122,8 +122,8 @@ Coordinate multiple models and tools locally.
 
 Download, convert, and organize your local model collection.
 
-- [HuggingFace Hub](https://github.com/huggingface/huggingface_hub) - Download models from HuggingFace. CLI and Python API. Where most open models are hosted.
-- [Transformers](https://github.com/huggingface/transformers) - Load and run most open models. Foundation library for HuggingFace ecosystem.
+- [Hugging Face Hub](https://github.com/huggingface/huggingface_hub) - Download models from Hugging Face. CLI and Python API. Where most open models are hosted.
+- [Transformers](https://github.com/huggingface/transformers) - Load and run most open models. Foundation library for Hugging Face ecosystem.
 - [GGML](https://github.com/ggml-org/ggml) - Tensor library behind llama.cpp. Low-level but fast. Powers the GGUF ecosystem.
 - [Ollama Model Library](https://ollama.com/library) - Pre-quantized models ready to pull with one command. Easiest way to get started.
 
@@ -211,9 +211,9 @@ Route requests across multiple model backends.
 
 Step-by-step guides for common tasks.
 
-- [Getting Started](guides/getting-started.md) - Install Ollama, run your first model, add a chat UI, use the API. Under 10 minutes.
-- [Choosing an Inference Engine](guides/choosing-inference-engine.md) - Decision tables, performance benchmarks, and model format compatibility across 10 engines.
-- [VRAM Requirements](guides/vram-requirements.md) - GPU memory calculator, what fits on your card, popular model sizes, and tips for fitting larger models.
+- [Getting Started](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/getting-started.md) - Install Ollama, run your first model, add a chat UI, use the API. Under 10 minutes.
+- [Choosing an Inference Engine](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/choosing-inference-engine.md) - Decision tables, performance benchmarks, and model format compatibility across 10 engines.
+- [VRAM Requirements](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/vram-requirements.md) - GPU memory calculator, what fits on your card, popular model sizes, and tips for fitting larger models.
 
 ---
 
@@ -232,14 +232,8 @@ Figure out what you need and what fits.
 
 Contributions welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## Related
+## Related Lists
 
 - [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM) - Broader LLM resources.
 - [Awesome Generative AI](https://github.com/steven2358/awesome-generative-ai) - Generative AI tools and research.
 - [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Self-hosted software.
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, CastelDazur has waived all copyright and related or neighboring rights to this work.
