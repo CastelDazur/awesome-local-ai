@@ -1,6 +1,6 @@
 # Getting Started with Local AI
 
-Run AI models on your own hardware in under 10 minutes. No cloud account needed.
+Run AI models on your own hardware, from install to a working API. No cloud account needed.
 
 ## Prerequisites
 
@@ -9,7 +9,7 @@ Run AI models on your own hardware in under 10 minutes. No cloud account needed.
 - NVIDIA GPU users: install [CUDA drivers](https://developer.nvidia.com/cuda-downloads)
 - 10-50 GB free disk space depending on models you want to run
 
-## Step 1: Install Ollama (2 minutes)
+## Step 1: Install Ollama
 
 [Ollama](https://github.com/ollama/ollama) is the fastest way to get a local model running.
 
@@ -26,7 +26,7 @@ brew install ollama
 **Windows:**
 Download from [ollama.com/download](https://ollama.com/download)
 
-## Step 2: Run Your First Model (3 minutes)
+## Step 2: Run Your First Model
 
 ```bash
 ollama run llama3.3:8b
@@ -52,12 +52,12 @@ Type `/bye` to exit.
 | `ollama run mistral` | Mistral 7B | 4.1 GB | Fast, good quality |
 | `ollama run qwen2.5-coder:7b` | Qwen 2.5 Coder 7B | 3.8 GB | Code generation |
 | `ollama run phi4-mini` | Phi-4 Mini | 2.3 GB | Small, surprisingly capable |
-| `ollama run llama3.3:70b` | Llama 3.3 70B | 40 GB | Best open model (needs 48GB+ VRAM) |
+| `ollama run llama3.3:70b` | Llama 3.3 70B | 40 GB | Large, strong quality (needs 48GB+ VRAM) |
 | `ollama run gemma3:12b` | Gemma 3 12B | 5.4 GB | Google model, good at facts |
 
 Full model list: [ollama.com/library](https://ollama.com/library)
 
-## Step 4: Add a Chat UI (5 minutes)
+## Step 4: Add a Chat UI
 
 [Open WebUI](https://github.com/open-webui/open-webui) gives you a ChatGPT-like interface for your local models.
 

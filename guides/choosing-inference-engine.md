@@ -1,6 +1,6 @@
 # Choosing an Inference Engine
 
-Not sure which inference engine to use? This guide helps you pick the right one based on your hardware, use case, and experience level.
+The right engine depends mostly on two things: your GPU vendor, and one user versus many.
 
 ## Quick Decision Table
 
@@ -12,9 +12,9 @@ Not sure which inference engine to use? This guide helps you pick the right one 
 | NVIDIA GPU, max speed | [ExLlamaV2](https://github.com/turboderp/exllamav2) | Fastest single-user inference for EXL2/GPTQ models |
 | Serving multiple users | [vLLM](https://github.com/vllm-project/vllm) | PagedAttention, continuous batching, production-ready |
 | Multi-turn chat app | [SGLang](https://github.com/sgl-project/sglang) | RadixAttention for KV cache reuse across conversations |
-| Intel GPU (Arc/Flex/Max) | [IPEX-LLM](https://github.com/intel/ipex-llm) | Only option with native Intel GPU optimization |
+| Intel GPU (Arc/Flex/Max) | [IPEX-LLM](https://github.com/intel/ipex-llm) | Purpose-built for Intel GPU acceleration (llama.cpp SYCL also works) |
 | Need OpenAI API compat | [LocalAI](https://github.com/mudler/LocalAI) | Drop-in replacement, supports 35+ backends |
-| Distribute to end users | [llamafile](https://github.com/Mozilla-Ocho/llamafile) | Single executable, no dependencies, cross-platform |
+| Distribute to end users | [llamafile](https://github.com/mozilla-ai/llamafile) | Single executable, no dependencies, cross-platform |
 | Embedded / low resources | [Candle](https://github.com/huggingface/candle) | Rust, minimal footprint, no Python dependency |
 
 ## Decision Flowchart
@@ -30,7 +30,7 @@ Do you have a GPU?
 │   ├── Supported? → llama.cpp or vLLM (ROCm build)
 │   └── Not sure? → Ollama (auto-detects)
 ├── Intel Arc/Flex/Max
-│   └── IPEX-LLM
+│   └── IPEX-LLM (or llama.cpp SYCL)
 └── Apple Silicon
     └── MLX LM or llama.cpp (Metal)
 ```
@@ -51,7 +51,7 @@ Do you have a GPU?
 
 ## Performance Comparison (Rough Guidelines)
 
-Tokens per second for Llama 3 8B on RTX 4090:
+Rough tokens per second for Llama 3 8B on an RTX 4090, from community reports (not measured here):
 
 | Engine | Prompt Processing | Generation | Notes |
 |---|---|---|---|

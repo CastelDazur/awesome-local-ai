@@ -29,7 +29,7 @@ If you run models on your own GPU instead of calling an API, this list is for yo
 
 Run LLMs on your machine.
 
-- [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++ with GGUF quantization. The backbone of most local AI setups. Supports NVIDIA, AMD, Intel, Apple Silicon.
+- [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++ with GGUF quantization. Most widely used inference backend for local setups. Supports NVIDIA, AMD, Intel, Apple Silicon.
 - [Ollama](https://github.com/ollama/ollama) - Docker-like experience for running local models. One command to download and run. Wraps llama.cpp with a model registry.
 - [vLLM](https://github.com/vllm-project/vllm) - High-throughput serving engine with PagedAttention for efficient VRAM usage. Production-grade, supports GGUF and most formats.
 - [MLX LM](https://github.com/ml-explore/mlx-lm) - Apple Silicon optimized inference. Uses unified memory efficiently. If you have an M-series Mac, start here.
@@ -42,13 +42,13 @@ Run LLMs on your machine.
 - [Candle](https://github.com/huggingface/candle) - Minimalist ML framework in Rust. Low memory footprint, good for embedded use cases.
 - [GPT4All](https://github.com/nomic-ai/gpt4all) - Desktop app for local models. Download a model, start chatting. Includes document Q&A.
 - [LM Studio](https://lmstudio.ai/) - Desktop app for discovering, downloading, and running local LLMs. Built-in chat UI and local API server. Good for non-technical users.
-- [IPEX-LLM](https://github.com/intel/ipex-llm) - Optimized inference for Intel GPUs (Arc, Flex, Max series). Required for native Intel GPU acceleration.
+- [IPEX-LLM](https://github.com/intel/ipex-llm) - Optimized inference for Intel GPUs (Arc, Flex, Max series). Often faster than llama.cpp's SYCL backend on Intel.
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - Rust-based inference with ISQ quantization and multimodal support. Low memory usage.
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal deployment of LLMs across hardware backends. Compile once, run anywhere (GPU, mobile, browser).
 - [Xinference](https://github.com/xorbitsai/inference) - Distributed inference platform for LLMs, speech, images. Built-in model hub and OpenAI-compatible API.
 - [FastChat](https://github.com/lm-sys/FastChat) - Serving platform from LMSYS (creators of Chatbot Arena). Multi-model serving with OpenAI-compatible API.
 - [Aphrodite Engine](https://github.com/PygmalionAI/aphrodite-engine) - High-throughput inference engine forked from vLLM. Optimized for multi-user serving with GPTQ, AWQ, EXL2 support.
-- [LMDeploy](https://github.com/InternLM/lmdeploy) - Toolkit for compressing, quantizing, and serving LLMs from InternLM. Up to 1.8x throughput vs vLLM on supported models.
+- [LMDeploy](https://github.com/InternLM/lmdeploy) - Toolkit for compressing, quantizing, and serving LLMs from InternLM. Reports higher throughput than vLLM in its own benchmarks.
 
 ## Python & Language Bindings
 
@@ -76,7 +76,7 @@ Make models smaller and faster without retraining.
 Train and adapt models on your own data locally.
 
 - [Unsloth](https://github.com/unslothai/unsloth) - 2x faster fine-tuning with 80% less memory. QLoRA and LoRA on a single GPU.
-- [axolotl](https://github.com/axolotl-ai-cloud/axolotl) - Streamlined fine-tuning with YAML configs. Supports LoRA, QLoRA, DPO, RLHF. Handles multi-GPU setups.
+- [axolotl](https://github.com/axolotl-ai-cloud/axolotl) - Fine-tuning driven by YAML configs. Supports LoRA, QLoRA, DPO, RLHF. Handles multi-GPU setups.
 - [PEFT](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning from Hugging Face. LoRA, prefix tuning, adapters.
 - [TRL](https://github.com/huggingface/trl) - Transformer Reinforcement Learning. RLHF, DPO, PPO training for language models. Works with PEFT.
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - Web UI for fine-tuning 100+ models. No coding needed. Supports LoRA, QLoRA, full fine-tuning.
@@ -197,7 +197,7 @@ Interact with documents without data leaving your machine.
 - [LocalGPT](https://github.com/PromtEngineer/localGPT) - Chat with documents using local models. Inspired by PrivateGPT with more model options.
 - [Danswer](https://github.com/danswer-ai/danswer) - Search and chat over internal documents. Can use local models. Self-hosted.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - All-in-one AI desktop app with local RAG and agent support. Connects to Ollama.
-- [Off Grid AI Desktop](https://github.com/off-grid-ai/off-grid-ai-desktop) - Private local-first macOS desktop app: local LLM chat, RAG over your own data, image generation, voice dictation, and MCP connectors. Everything runs on-device, nothing leaves the machine. AGPL-3.0.
+- [Off Grid AI Desktop](https://github.com/off-grid-ai/off-grid-ai-desktop) - Private local-first macOS app: chat, RAG, image generation, voice dictation, MCP connectors. Runs on-device. AGPL-3.0.
 - [light-ocr](https://github.com/arcships/light-ocr) - Offline OCR library and CLI for Node.js and C++. PP-OCRv6 via ONNX Runtime; no Python runtime.
 
 ## Unified Gateways
@@ -211,7 +211,7 @@ Route requests across multiple model backends.
 
 Step-by-step guides for common tasks.
 
-- [Getting Started](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/getting-started.md) - Install Ollama, run your first model, add a chat UI, use the API. Under 10 minutes.
+- [Getting Started](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/getting-started.md) - Install Ollama, run your first model, add a chat UI, use the API.
 - [Choosing an Inference Engine](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/choosing-inference-engine.md) - Decision tables, performance benchmarks, and model format compatibility across 10 engines.
 - [VRAM Requirements](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/vram-requirements.md) - GPU memory calculator, what fits on your card, popular model sizes, and tips for fitting larger models.
 

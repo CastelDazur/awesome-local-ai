@@ -1,11 +1,11 @@
 # VRAM Requirements for Local AI Models
 
-Quick reference for estimating GPU memory needs. Use this before downloading a model to avoid OOM crashes.
+The math for estimating VRAM, per-GPU limits, and what to do when a model is too big.
 
 ## The Formula
 
 ```
-VRAM (GB) â Parameters (B) Ã Bytes per Parameter + Context Overhead
+VRAM (GB) ≈ Parameters (B) × Bytes per Parameter + Context Overhead
 ```
 
 | Quantization | Bytes per Param | Example: 7B Model | Example: 70B Model |
@@ -40,7 +40,7 @@ Add ~1-2 GB overhead for KV cache and system usage on top of model size.
 | RTX 4070 Ti Super | 16 GB | 13B-20B | 7B | Same VRAM, faster compute |
 | RTX 4080 | 16 GB | 13B-20B | 7B | Faster throughput |
 | RTX 4090 | 24 GB | 30B-34B | 13B | Prosumer sweet spot |
-| RTX 5090 | 32 GB | 70B (tight) | 14B | Most open models fit |
+| RTX 5090 | 32 GB | 32B-34B | 14B | Fits Mixtral 8x7B; 70B needs CPU offload |
 | 2x RTX 4090 | 48 GB | 70B comfortable | 20B-34B | Enthusiast multi-GPU |
 | A100 40GB | 40 GB | 70B (Q4) | 20B | Datacenter standard |
 | A100 80GB | 80 GB | 70B (FP16) | 34B | Production serving |
