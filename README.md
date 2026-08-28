@@ -42,7 +42,6 @@ Run LLMs on your machine.
 - [Candle](https://github.com/huggingface/candle) - Minimalist ML framework in Rust. Low memory footprint, good for embedded use cases.
 - [GPT4All](https://github.com/nomic-ai/gpt4all) - Desktop app for local models. Download a model, start chatting. Includes document Q&A.
 - [LM Studio](https://lmstudio.ai/) - Desktop app for discovering, downloading, and running local LLMs. Built-in chat UI and local API server. Good for non-technical users.
-- [IPEX-LLM](https://github.com/intel/ipex-llm) - Optimized inference for Intel GPUs (Arc, Flex, Max series). Often faster than llama.cpp's SYCL backend on Intel.
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - Rust-based inference with ISQ quantization and multimodal support. Low memory usage.
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal deployment of LLMs across hardware backends. Compile once, run anywhere (GPU, mobile, browser).
 - [Xinference](https://github.com/xorbitsai/inference) - Distributed inference platform for LLMs, speech, images. Built-in model hub and OpenAI-compatible API.
@@ -57,13 +56,12 @@ Use inference engines from your code.
 - [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) - Python bindings for llama.cpp with OpenAI-compatible API server. The most popular way to use llama.cpp from Python.
 - [Ollama Python](https://github.com/ollama/ollama-python) - Python client for Ollama API. Simple, well-documented.
 - [Ollama JS](https://github.com/ollama/ollama-js) - JavaScript/TypeScript client for Ollama.
-- [ctransformers](https://github.com/marella/ctransformers) - Python bindings for GGML models with GPU acceleration. Lighter alternative to llama-cpp-python.
 
 ## Quantization & Optimization
 
 Make models smaller and faster without retraining.
 
-- [GPTQ](https://github.com/AutoGPTQ/AutoGPTQ) - Post-training quantization for GPT models. 4-bit with minimal quality loss. Widely used on Hugging Face.
+- [GPTQModel](https://github.com/ModelCloud/GPTQModel) - Post-training 4-bit quantization, the maintained successor to AutoGPTQ. Works on NVIDIA, AMD and Intel GPUs.
 - [AWQ](https://github.com/mit-han-lab/llm-awq) - Activation-aware weight quantization. Often better quality than GPTQ at same bit width.
 - [bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) - 8-bit and 4-bit quantization for PyTorch. Required for QLoRA fine-tuning.
 - [xformers](https://github.com/facebookresearch/xformers) - Memory-efficient attention implementations. Saves VRAM on long contexts.
@@ -109,7 +107,6 @@ Coordinate multiple models and tools locally.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft SDK for AI agent apps. .NET, Python, Java. Enterprise-focused.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Programming framework for LM pipelines. Optimizes prompts and weights automatically. From Stanford NLP.
 - [Dify](https://github.com/langgenius/dify) - Visual workflow builder for LLM apps. Drag-and-drop RAG, agents, chatbots. Self-hostable with local model support.
-- [Flowise](https://github.com/FlowiseAI/Flowise) - Low-code LLM app builder with drag-and-drop UI. Connects to Ollama and local APIs.
 - [Open Interpreter](https://github.com/openinterpreter/openinterpreter) - Natural language interface to your computer. Runs code locally, controls files and apps. Works with local models via LiteLLM.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Desktop multi-agent workspace that can use local OpenAI-compatible model endpoints.
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Programmable guardrails for LLM apps from NVIDIA. Input/output filters, fact-checking, dialogue policies. Wraps any local model.
@@ -170,7 +167,7 @@ Speech recognition and synthesis on your hardware.
 - [Whisper](https://github.com/openai/whisper) - OpenAI speech-to-text. Runs locally despite the name. Multiple model sizes from tiny to large-v3.
 - [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) - 4x faster Whisper using CTranslate2. Same quality, less VRAM. Drop-in replacement.
 - [WhisperX](https://github.com/m-bain/whisperX) - Whisper with word-level timestamps and speaker diarization. Good for transcription workflows.
-- [Piper](https://github.com/rhasspy/piper) - Fast local text-to-speech. Runs on a Raspberry Pi. Many voice models available.
+- [Piper](https://github.com/OHF-Voice/piper1-gpl) - Fast local text-to-speech. Runs on a Raspberry Pi. Many voice models available.
 - [Speaches](https://github.com/speaches-ai/speaches) - OpenAI-compatible speech API server. Drop-in local replacement for OpenAI TTS/STT.
 - [WhisperKit](https://github.com/argmaxinc/argmax-oss-swift) - On-device speech recognition optimized for Apple Silicon. Swift framework.
 - [WhisperLive](https://github.com/collabora/WhisperLive) - Real-time streaming transcription. Low latency, works with microphone input.

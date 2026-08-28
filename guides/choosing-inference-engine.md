@@ -12,7 +12,7 @@ The right engine depends mostly on two things: your GPU vendor, and one user ver
 | NVIDIA GPU, max speed | [ExLlamaV2](https://github.com/turboderp-org/exllamav2) | Fastest single-user inference for EXL2/GPTQ models |
 | Serving multiple users | [vLLM](https://github.com/vllm-project/vllm) | PagedAttention, continuous batching, production-ready |
 | Multi-turn chat app | [SGLang](https://github.com/sgl-project/sglang) | RadixAttention for KV cache reuse across conversations |
-| Intel GPU (Arc/Flex/Max) | [IPEX-LLM](https://github.com/intel/ipex-llm) | Purpose-built for Intel GPU acceleration (llama.cpp SYCL also works) |
+| Intel GPU (Arc/Flex/Max) | [llama.cpp](https://github.com/ggml-org/llama.cpp) | SYCL and Vulkan backends; Intel archived its own IPEX-LLM in 2026 |
 | Need OpenAI API compat | [LocalAI](https://github.com/mudler/LocalAI) | Drop-in replacement, supports 35+ backends |
 | Distribute to end users | [llamafile](https://github.com/mozilla-ai/llamafile) | Single executable, no dependencies, cross-platform |
 | Embedded / low resources | [Candle](https://github.com/huggingface/candle) | Rust, minimal footprint, no Python dependency |
@@ -30,7 +30,7 @@ Do you have a GPU?
 │   ├── Supported? → llama.cpp or vLLM (ROCm build)
 │   └── Not sure? → Ollama (auto-detects)
 ├── Intel Arc/Flex/Max
-│   └── IPEX-LLM (or llama.cpp SYCL)
+│   └── llama.cpp (SYCL or Vulkan)
 └── Apple Silicon
     └── MLX LM or llama.cpp (Metal)
 ```
