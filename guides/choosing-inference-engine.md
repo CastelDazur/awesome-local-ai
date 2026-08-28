@@ -9,7 +9,7 @@ The right engine depends mostly on two things: your GPU vendor, and one user ver
 | Just getting started | [Ollama](https://github.com/ollama/ollama) | One command install, model library, works everywhere |
 | Apple Silicon Mac | [MLX LM](https://github.com/ml-explore/mlx-lm) | Native Metal acceleration, best perf per watt on M-series |
 | NVIDIA GPU, single user | [llama.cpp](https://github.com/ggml-org/llama.cpp) | GGUF models, low VRAM usage, huge community |
-| NVIDIA GPU, max speed | [ExLlamaV2](https://github.com/turboderp/exllamav2) | Fastest single-user inference for EXL2/GPTQ models |
+| NVIDIA GPU, max speed | [ExLlamaV2](https://github.com/turboderp-org/exllamav2) | Fastest single-user inference for EXL2/GPTQ models |
 | Serving multiple users | [vLLM](https://github.com/vllm-project/vllm) | PagedAttention, continuous batching, production-ready |
 | Multi-turn chat app | [SGLang](https://github.com/sgl-project/sglang) | RadixAttention for KV cache reuse across conversations |
 | Intel GPU (Arc/Flex/Max) | [IPEX-LLM](https://github.com/intel/ipex-llm) | Purpose-built for Intel GPU acceleration (llama.cpp SYCL also works) |

@@ -71,7 +71,7 @@ docker run -d -p 3000:8080 \
 
 Open http://localhost:3000 in your browser. Create an account (stored locally), select a model, and start chatting.
 
-No Docker? Try [Jan](https://jan.ai) (desktop app) or [Msty](https://msty.app) instead.
+No Docker? Try [Jan](https://www.jan.ai) (desktop app) or [Msty](https://msty.ai) instead.
 
 ## Step 5: Use the API
 
