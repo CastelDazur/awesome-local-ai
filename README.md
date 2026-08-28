@@ -180,7 +180,7 @@ Speech recognition and synthesis on your hardware.
 
 ## Image & Video
 
-Generate and edit images locally.
+Generate, edit, and analyze images and video locally.
 
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) - Node-based workflow for Stable Diffusion, FLUX, SD3, SDXL. Visual pipeline editor.
 - [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Feature-rich Gradio interface for Stable Diffusion. Large extension ecosystem.
