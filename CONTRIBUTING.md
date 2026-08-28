@@ -12,16 +12,18 @@ Thanks for helping. Here's how.
 ## Rules
 
 - Tool must run locally (on user's hardware, not cloud-only)
-- Must be actively maintained (commit within last 6 months)
+- Must still work. Archived repos get dropped, and so does anything abandoned with no working successor. A stable tool that has not needed a commit in a year is fine
 - One line per tool, keep descriptions under 20 words
 - No marketing speak. What does it DO, not how "revolutionary" it is
 - If you've used the tool, add a practical note ("Good for X", "Needs Y GB VRAM")
 
 ## Removing a tool
 
-If a tool is abandoned, archived, or no longer works:
+If a tool is archived, abandoned, or no longer works:
 1. Open an issue with the tool name and reason
 2. Or submit a PR removing it
+
+Where the project moved somewhere maintained, point the entry there instead of deleting it. Old name in the description helps people who knew it before.
 
 ## Categories
 
@@ -31,5 +33,5 @@ If a tool doesn't fit existing categories, propose a new one in your PR descript
 
 - Cloud-only services (no local execution option)
 - Paid tools without a functional free/open-source tier
-- Tools with last commit older than 6 months
+- Archived repos, and projects abandoned with nothing maintained to point to instead
 - Wrappers that don't add meaningful functionality
