@@ -218,7 +218,7 @@ Step-by-step guides for common tasks.
 
 Figure out what you need and what fits.
 
-- [GPU Benchmarks for LLM Inference](https://github.com/XiongjieDai/GPU-Benchmarks-on-LLM-Inference) - Performance comparison across consumer GPUs. Real benchmarks, not marketing.
+- [GPU Benchmarks for LLM Inference](https://github.com/XiongjieDai/GPU-Benchmarks-on-LLM-Inference) - Measured tokens/sec for RTX 3090, 4090, A100, H100 and Apple M1 to M3. Numbers date from 2024, so nothing newer is covered.
 - [Can I Run This Model?](https://huggingface.co/spaces/Vokturz/can-it-run-llm) - VRAM calculator. Enter your GPU, see what fits.
 - [LocalLLaMA Wiki](https://www.reddit.com/r/LocalLLaMA/wiki/) - Community-maintained knowledge base for local AI hardware and software.
 
