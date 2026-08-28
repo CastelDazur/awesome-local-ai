@@ -218,6 +218,8 @@ Step-by-step guides for common tasks.
 
 Figure out what you need and what fits.
 
+- [llama.cpp CUDA Benchmarks](https://github.com/ggml-org/llama.cpp/discussions/15013) - Community llama-bench results on NVIDIA cards, RTX 50-series included. People post new hardware as they get it.
+- [llama.cpp Apple Silicon Benchmarks](https://github.com/ggml-org/llama.cpp/discussions/4167) - Same idea for M-series Macs, M1 onward.
 - [GPU Benchmarks for LLM Inference](https://github.com/XiongjieDai/GPU-Benchmarks-on-LLM-Inference) - Measured tokens/sec for RTX 3090, 4090, A100, H100 and Apple M1 to M3. Numbers date from 2024, so nothing newer is covered.
 - [Can I Run This Model?](https://huggingface.co/spaces/Vokturz/can-it-run-llm) - VRAM calculator. Enter your GPU, see what fits.
 - [LocalLLaMA Wiki](https://www.reddit.com/r/LocalLLaMA/wiki/) - Community-maintained knowledge base for local AI hardware and software.
