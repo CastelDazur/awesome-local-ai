@@ -185,6 +185,7 @@ Generate, edit, and analyze images and video locally.
 - [Fooocus](https://github.com/lllyasviel/Fooocus) - Simplified image generation. Fewer options, faster results. Good for non-technical users.
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Creative engine for Stable Diffusion with professional UI. Node-based workflows.
 - [FLUX.1](https://github.com/black-forest-labs/flux) - Image generation from Black Forest Labs. FLUX.1-dev runs locally on 12GB+ VRAM.
+- [AI Segmentation](https://github.com/TerraLabAI/QGIS_AI-Segmentation) - QGIS plugin that outlines buildings, trees and other objects in satellite and drone imagery. Local mode runs SAM 2.1 on your CPU; automatic mode is cloud.
 
 ## Privacy-First Tools
 
