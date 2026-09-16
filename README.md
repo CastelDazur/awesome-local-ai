@@ -42,6 +42,7 @@ Run LLMs on your machine.
 - [Candle](https://github.com/huggingface/candle) - Minimalist ML framework in Rust. Low memory footprint, good for embedded use cases.
 - [GPT4All](https://github.com/nomic-ai/gpt4all) - Desktop app for local models. Download a model, start chatting. Includes document Q&A.
 - [LM Studio](https://lmstudio.ai/) - Desktop app for discovering, downloading, and running local LLMs. Built-in chat UI and local API server. Good for non-technical users.
+- [Ferrum](https://github.com/sizzlecar/ferrum-infer-rs) - Rust-native LLM inference for Metal and CUDA with OpenAI-compatible serving. Metal quick start downloads 2.55 GiB.
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - Rust-based inference with ISQ quantization and multimodal support. Low memory usage.
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal deployment of LLMs across hardware backends. Compile once, run anywhere (GPU, mobile, browser).
 - [Xinference](https://github.com/xorbitsai/inference) - Distributed inference platform for LLMs, speech, images. Built-in model hub and OpenAI-compatible API.
