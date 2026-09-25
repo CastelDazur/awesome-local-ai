@@ -150,6 +150,7 @@ Chat with your local models through a proper interface.
 - [Msty](https://msty.ai) - Desktop app connecting to local and remote models. Free tier available. Clean, native feel.
 - [Hollama](https://github.com/fmaclen/hollama) - Minimal web UI for Ollama. Lightweight alternative to Open WebUI. Quick to set up.
 - [SillyTavern](https://github.com/SillyTavern/SillyTavern) - Chat interface with character cards, group chats, extensions. Popular in the creative/RP community.
+- [Arelis](https://github.com/sAnct1x/Arelis) - Windows research assistant on Ollama with web search and its own browser. Asks before it writes or sends.
 
 ## Code Assistants
 
