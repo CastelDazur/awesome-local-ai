@@ -49,6 +49,7 @@ Run LLMs on your machine.
 - [FastChat](https://github.com/lm-sys/FastChat) - Serving platform from LMSYS (creators of Chatbot Arena). Multi-model serving with OpenAI-compatible API.
 - [Sonar](https://github.com/dphnAI/sonar) - High-throughput inference engine forked from vLLM, formerly Aphrodite Engine. Multi-user serving with GPTQ, AWQ, EXL2 support.
 - [LMDeploy](https://github.com/InternLM/lmdeploy) - Toolkit for compressing, quantizing, and serving LLMs from InternLM. Reports higher throughput than vLLM in its own benchmarks.
+- [jevos](https://github.com/feder-cr/jev) - Self-hosted CPU-only yes/no decision model, Jev-compatible HTTP API. One forward pass, no text generation. Good for routing, triage, policy checks.
 
 ## Python & Language Bindings
 
