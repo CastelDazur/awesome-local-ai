@@ -224,6 +224,7 @@ Figure out what you need and what fits.
 - [llama.cpp Apple Silicon Benchmarks](https://github.com/ggml-org/llama.cpp/discussions/4167) - Same idea for M-series Macs, M1 onward.
 - [GPU Benchmarks for LLM Inference](https://github.com/XiongjieDai/GPU-Benchmarks-on-LLM-Inference) - Measured tokens/sec for RTX 3090, 4090, A100, H100 and Apple M1 to M3. Numbers date from 2024, so nothing newer is covered.
 - [Can I Run This Model?](https://huggingface.co/spaces/Vokturz/can-it-run-llm) - VRAM calculator. Enter your GPU, see what fits.
+- [AI Hardware Fit](https://jaeseok614.github.io/ai-hardware-fit/) - Match models to GPUs and compare quantization-aware VRAM needs, speed estimates, and hardware costs for local inference.
 - [LocalLLaMA Wiki](https://www.reddit.com/r/LocalLLaMA/wiki/) - Community-maintained knowledge base for local AI hardware and software.
 
 ---
