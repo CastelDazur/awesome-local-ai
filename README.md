@@ -33,6 +33,7 @@ Run LLMs on your machine.
 - [Ollama](https://github.com/ollama/ollama) - Docker-like experience for running local models. One command to download and run. Wraps llama.cpp with a model registry.
 - [vLLM](https://github.com/vllm-project/vllm) - High-throughput serving engine with PagedAttention for efficient VRAM usage. Production-grade, supports GGUF and most formats.
 - [MLX LM](https://github.com/ml-explore/mlx-lm) - Apple Silicon optimized inference. Uses unified memory efficiently. If you have an M-series Mac, start here.
+- [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) - Apple Silicon LLM server built on MLX, with OpenAI- and Anthropic-compatible APIs and a Mac app.
 - [LocalAI](https://github.com/mudler/LocalAI) - OpenAI API-compatible server supporting 35+ backends. Drop-in replacement for any OpenAI client.
 - [ExLlamaV2](https://github.com/turboderp-org/exllamav2) - Fast single-user inference on NVIDIA GPUs for EXL2 and GPTQ quantized models. Low VRAM overhead.
 - [llamafile](https://github.com/mozilla-ai/llamafile) - Distribute LLMs as single executable files. No install, just run. Cross-platform.
