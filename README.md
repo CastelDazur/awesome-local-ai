@@ -172,7 +172,6 @@ Speech recognition and synthesis on your hardware.
 - [Speaches](https://github.com/speaches-ai/speaches) - OpenAI-compatible speech API server. Drop-in local replacement for OpenAI TTS/STT.
 - [WhisperKit](https://github.com/argmaxinc/argmax-oss-swift) - On-device speech recognition optimized for Apple Silicon. Swift framework.
 - [WhisperLive](https://github.com/collabora/WhisperLive) - Real-time streaming transcription. Low latency, works with microphone input.
-- [Bark](https://github.com/suno-ai/bark) - Text-to-audio generation. Voice cloning, music, sound effects. Runs locally on GPU.
 - [F5-TTS](https://github.com/SWivid/F5-TTS) - High-quality text-to-speech with voice cloning from 15s reference audio. Diffusion-based.
 - [Kokoro TTS](https://github.com/hexgrad/kokoro) - Lightweight text-to-speech with natural-sounding voices. 82M parameters, runs on CPU. Apache 2.0 licensed.
 
@@ -182,7 +181,7 @@ Generate, edit, and analyze images and video locally.
 
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) - Node-based workflow for Stable Diffusion, FLUX, SD3, SDXL. Visual pipeline editor.
 - [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Feature-rich Gradio interface for Stable Diffusion. Large extension ecosystem.
-- [Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) - Optimized SD WebUI fork. Better VRAM efficiency and speed. Good for new setups.
+- [Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) - Optimized SD WebUI fork. Better VRAM efficiency and speed.
 - [Fooocus](https://github.com/lllyasviel/Fooocus) - Simplified image generation. Fewer options, faster results. Good for non-technical users.
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Creative engine for Stable Diffusion with professional UI. Node-based workflows.
 - [FLUX.1](https://github.com/black-forest-labs/flux) - Image generation from Black Forest Labs. FLUX.1-dev runs locally on 12GB+ VRAM.
