@@ -96,6 +96,7 @@ Build local knowledge systems without sending your data anywhere.
 - [Sentence-Transformers](https://github.com/huggingface/sentence-transformers) - Compute embeddings locally. Pair with any vector DB above. 5000+ pre-trained models.
 - [Unstructured](https://github.com/Unstructured-IO/unstructured) - Extract text from PDFs, Word docs, HTML, images. Pre-processing for RAG pipelines.
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI assistants. Persistent context across conversations with local embedding and vector storage.
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Encrypted local knowledge store with CLI/MCP search, device sync, and scoped, expiring access grants. Developer alpha.
 
 ## Orchestration & Agents
 
