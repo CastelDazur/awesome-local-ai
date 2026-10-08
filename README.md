@@ -160,6 +160,7 @@ AI-powered coding without sending your code to the cloud.
 - [Aider](https://github.com/Aider-AI/aider) - AI pair programming in your terminal. Edit files, run tests, commit. Works with local models via Ollama/LiteLLM.
 - [llm](https://github.com/simonw/llm) - CLI tool for interacting with LLMs. Plugins for local models. From the creator of Datasette.
 - [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) - Terminal coding assistant running open-weight models on your machine via a llama.cpp fork. No API key needed. Developer preview, so expect breaking changes.
+- [CodeOtter](https://github.com/dharmeshgurnani/CodeOtter) - Self-hosted pull request reviewer for GitHub, Forgejo and Gitea. Runs on local GGUF models via llama.cpp.
 
 ## Voice & Audio
 
