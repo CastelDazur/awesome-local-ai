@@ -115,6 +115,7 @@ Coordinate multiple models and tools locally.
 - [Instructor](https://github.com/567-labs/instructor) - Reliable structured outputs from any LLM via Pydantic models. Retries on validation failure. Works with local models via Ollama and LiteLLM.
 - [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Local agent memory lifecycle with SQLite/FTS recall, audit, and forgetting.
 - [Agent Meeting Room](https://github.com/GhravenLabs/Agent-Meeting-Room) - Flask web app for multi-agent group chat over Ollama-compatible models. Debate mode, SSE streaming, optional Obsidian-backed memory.
+- [Tholos](https://github.com/mertkayacs/tholos) - Scheduled local agents share tables, notes and a task board; rules allow, ask or deny each action. Its 1.6 GB default model runs on CPU through Ollama or llama.cpp.
 
 ## Model Management
 
