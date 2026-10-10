@@ -174,6 +174,7 @@ Speech recognition and synthesis on your hardware.
 - [WhisperLive](https://github.com/collabora/WhisperLive) - Real-time streaming transcription. Low latency, works with microphone input.
 - [F5-TTS](https://github.com/SWivid/F5-TTS) - High-quality text-to-speech with voice cloning from 15s reference audio. Diffusion-based.
 - [Kokoro TTS](https://github.com/hexgrad/kokoro) - Lightweight text-to-speech with natural-sounding voices. 82M parameters, runs on CPU. Apache 2.0 licensed.
+- [akou](https://github.com/GeiserX/akou) - Call recorder for macOS with on-device transcription and speaker labels. Also an OpenAI-compatible transcription server in Docker.
 
 ## Image & Video
 
