@@ -48,6 +48,7 @@ Run LLMs on your machine.
 - [Xinference](https://github.com/xorbitsai/inference) - Distributed inference platform for LLMs, speech, images. Built-in model hub and OpenAI-compatible API.
 - [FastChat](https://github.com/lm-sys/FastChat) - Serving platform from LMSYS (creators of Chatbot Arena). Multi-model serving with OpenAI-compatible API.
 - [Sonar](https://github.com/dphnAI/sonar) - High-throughput inference engine forked from vLLM, formerly Aphrodite Engine. Multi-user serving with GPTQ, AWQ, EXL2 support.
+- [llmash](https://github.com/omgitsbase/llmash) - Drop-in Ollama replacement on a llama.cpp fork, with MTP speculative decoding tuned for NVIDIA GPUs. Picks up your existing Ollama models.
 - [LMDeploy](https://github.com/InternLM/lmdeploy) - Toolkit for compressing, quantizing, and serving LLMs from InternLM. Reports higher throughput than vLLM in its own benchmarks.
 
 ## Python & Language Bindings
