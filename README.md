@@ -174,6 +174,7 @@ Speech recognition and synthesis on your hardware.
 - [WhisperLive](https://github.com/collabora/WhisperLive) - Real-time streaming transcription. Low latency, works with microphone input.
 - [F5-TTS](https://github.com/SWivid/F5-TTS) - High-quality text-to-speech with voice cloning from 15s reference audio. Diffusion-based.
 - [Kokoro TTS](https://github.com/hexgrad/kokoro) - Lightweight text-to-speech with natural-sounding voices. 82M parameters, runs on CPU. Apache 2.0 licensed.
+- [Plainsay](https://github.com/conrader/plainsay) - Mac dictation with free Local Whisper or Parakeet, no account. MIT-licensed client; optional paid Cloud transcription uploads audio.
 
 ## Image & Video
 
