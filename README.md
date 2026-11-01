@@ -187,6 +187,7 @@ Generate, edit, and analyze images and video locally.
 - [FLUX.1](https://github.com/black-forest-labs/flux) - Image generation from Black Forest Labs. FLUX.1-dev runs locally on 12GB+ VRAM.
 - [AI Segmentation](https://github.com/TerraLabAI/QGIS_AI-Segmentation) - QGIS plugin that outlines buildings, trees and other objects in satellite and drone imagery. Local mode runs SAM 2.1 on your CPU; automatic mode is cloud.
 - [NanoAvatar](https://github.com/wpydcr/NanoAvatar) - Talking avatars generated on-device on Android or NVIDIA GPUs. Code MIT, lip-sync weights CC BY-NC.
+- [ClearPix](https://clearpix.org) - Browser-based watermark removal, object erasure, subtitle cleaning and 4× upscaling; ONNX Runtime Web, files never leave the device.
 
 ## Privacy-First Tools
 
