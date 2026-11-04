@@ -198,6 +198,7 @@ Interact with documents without data leaving your machine.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - All-in-one AI desktop app with local RAG and agent support. Connects to Ollama.
 - [Off Grid AI Desktop](https://github.com/off-grid-ai/OGAD) - Private local-first macOS app: chat, RAG, image generation, voice dictation, MCP connectors. Runs on-device. AGPL-3.0.
 - [light-ocr](https://github.com/arcships/light-ocr) - Offline OCR library and CLI for Node.js and C++. PP-OCRv6 via ONNX Runtime; no Python runtime.
+- [ThreadShelf](https://github.com/ChrystianSchutz/ThreadShelf) - Local archive and semantic search for ChatGPT, Claude, Grok and other chat exports, with MCP and llama.cpp continuation.
 
 ## Unified Gateways
 
