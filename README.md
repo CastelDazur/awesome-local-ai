@@ -2,7 +2,7 @@
 
 > A curated list of tools, frameworks, and resources for running AI models on your own hardware. No cloud required.
 
-If you run models on your own GPU instead of calling an API, this list is for you. Every tool listed here works offline after initial setup.
+If you run models on your own GPU instead of calling an API, this list is for you. The tools run on your own hardware. Where one also has a cloud option or a paid tier, its entry says so.
 
 ## Contents
 
@@ -29,183 +29,183 @@ If you run models on your own GPU instead of calling an API, this list is for yo
 
 Run LLMs on your machine.
 
-- [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++ with GGUF quantization. Most widely used inference backend for local setups. Supports NVIDIA, AMD, Intel, Apple Silicon.
-- [Ollama](https://github.com/ollama/ollama) - Docker-like experience for running local models. One command to download and run. Wraps llama.cpp with a model registry.
-- [vLLM](https://github.com/vllm-project/vllm) - High-throughput serving engine with PagedAttention for efficient VRAM usage. Production-grade, supports GGUF and most formats.
-- [MLX LM](https://github.com/ml-explore/mlx-lm) - Apple Silicon optimized inference. Uses unified memory efficiently. If you have an M-series Mac, start here.
-- [LocalAI](https://github.com/mudler/LocalAI) - OpenAI API-compatible server supporting 35+ backends. Drop-in replacement for any OpenAI client.
-- [ExLlamaV2](https://github.com/turboderp-org/exllamav2) - Fast single-user inference on NVIDIA GPUs for EXL2 and GPTQ quantized models. Low VRAM overhead.
-- [llamafile](https://github.com/mozilla-ai/llamafile) - Distribute LLMs as single executable files. No install, just run. Cross-platform.
-- [KoboldCpp](https://github.com/LostRuins/koboldcpp) - One-file GGUF inference with built-in UI. Good for creative writing and roleplay.
-- [SGLang](https://github.com/sgl-project/sglang) - Structured generation with RadixAttention for fast multi-turn conversations. Good for agentic workloads.
-- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - NVIDIA optimized inference. High throughput on NVIDIA hardware, more setup required.
 - [Candle](https://github.com/huggingface/candle) - Minimalist ML framework in Rust. Low memory footprint, good for embedded use cases.
-- [GPT4All](https://github.com/nomic-ai/gpt4all) - Desktop app for local models. Download a model, start chatting. Includes document Q&A.
-- [LM Studio](https://lmstudio.ai/) - Desktop app for discovering, downloading, and running local LLMs. Built-in chat UI and local API server. Good for non-technical users.
+- [ExLlamaV2](https://github.com/turboderp-org/exllamav2) - Fast single-user inference on NVIDIA GPUs for EXL2 and GPTQ quantized models. Low VRAM overhead.
+- [FastChat](https://github.com/lm-sys/FastChat) - Serving platform from LMSYS (creators of Chatbot Arena). Multi-model serving with OpenAI-compatible API.
 - [Ferrum](https://github.com/sizzlecar/ferrum-infer-rs) - Rust-native LLM serving with OpenAI-compatible API on Metal, CUDA or CPU. One binary, no Python runtime.
+- [GPT4All](https://github.com/nomic-ai/gpt4all) - Desktop app for local models. Download a model, start chatting. Includes document Q&A.
+- [KoboldCpp](https://github.com/LostRuins/koboldcpp) - One-file GGUF inference with built-in UI. Good for creative writing and roleplay.
+- [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++ with GGUF quantization. Most widely used inference backend for local setups. Supports NVIDIA, AMD, Intel, Apple Silicon.
+- [llamafile](https://github.com/mozilla-ai/llamafile) - Distribute LLMs as single executable files. No install, just run. Cross-platform.
+- [LMDeploy](https://github.com/InternLM/lmdeploy) - Toolkit for compressing, quantizing, and serving LLMs from InternLM. Reports higher throughput than vLLM in its own benchmarks.
+- [LM Studio](https://lmstudio.ai/) - Desktop app for discovering, downloading, and running local LLMs. Built-in chat UI and local API server. Good for non-technical users.
+- [LocalAI](https://github.com/mudler/LocalAI) - OpenAI API-compatible server supporting 35+ backends. Drop-in replacement for any OpenAI client.
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - Rust-based inference with ISQ quantization and multimodal support. Low memory usage.
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal deployment of LLMs across hardware backends. Compile once, run anywhere (GPU, mobile, browser).
-- [Xinference](https://github.com/xorbitsai/inference) - Distributed inference platform for LLMs, speech, images. Built-in model hub and OpenAI-compatible API.
-- [FastChat](https://github.com/lm-sys/FastChat) - Serving platform from LMSYS (creators of Chatbot Arena). Multi-model serving with OpenAI-compatible API.
-- [Sonar](https://github.com/dphnAI/sonar) - High-throughput inference engine forked from vLLM, formerly Aphrodite Engine. Multi-user serving with GPTQ, AWQ, EXL2 support.
-- [LMDeploy](https://github.com/InternLM/lmdeploy) - Toolkit for compressing, quantizing, and serving LLMs from InternLM. Reports higher throughput than vLLM in its own benchmarks.
+- [MLX LM](https://github.com/ml-explore/mlx-lm) - Apple Silicon optimized inference. Uses unified memory efficiently. If you have an M-series Mac, start here.
+- [Ollama](https://github.com/ollama/ollama) - Docker-like experience for running local models. One command to download and run. Wraps llama.cpp with a model registry.
 - [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) - Apple Silicon LLM server built on MLX, with OpenAI- and Anthropic-compatible APIs and a Mac app.
+- [SGLang](https://github.com/sgl-project/sglang) - Structured generation with RadixAttention for fast multi-turn conversations. Good for agentic workloads.
+- [Sonar](https://github.com/dphnAI/sonar) - High-throughput inference engine forked from vLLM, formerly Aphrodite Engine. Multi-user serving with GPTQ, AWQ, EXL2 support.
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - NVIDIA optimized inference. High throughput on NVIDIA hardware, more setup required.
+- [vLLM](https://github.com/vllm-project/vllm) - High-throughput serving engine with PagedAttention for efficient VRAM usage. Production-grade, supports GGUF and most formats.
+- [Xinference](https://github.com/xorbitsai/inference) - Distributed inference platform for LLMs, speech, images. Built-in model hub and OpenAI-compatible API.
 
 ## Python & Language Bindings
 
 Use inference engines from your code.
 
 - [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) - Python bindings for llama.cpp with OpenAI-compatible API server. The most popular way to use llama.cpp from Python.
-- [Ollama Python](https://github.com/ollama/ollama-python) - Python client for Ollama API. Simple, well-documented.
 - [Ollama JS](https://github.com/ollama/ollama-js) - JavaScript/TypeScript client for Ollama.
+- [Ollama Python](https://github.com/ollama/ollama-python) - Python client for Ollama API. Simple, well-documented.
 
 ## Quantization & Optimization
 
 Make models smaller and faster without retraining.
 
-- [GPTQModel](https://github.com/ModelCloud/GPTQModel) - Post-training 4-bit quantization, the maintained successor to AutoGPTQ. Works on NVIDIA, AMD and Intel GPUs.
 - [AWQ](https://github.com/mit-han-lab/llm-awq) - Activation-aware weight quantization. Often better quality than GPTQ at same bit width.
 - [bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) - 8-bit and 4-bit quantization for PyTorch. Required for QLoRA fine-tuning.
-- [xformers](https://github.com/facebookresearch/xformers) - Memory-efficient attention implementations. Saves VRAM on long contexts.
-- [NVIDIA Model Optimizer](https://github.com/NVIDIA/Model-Optimizer) - Quantization, pruning, and distillation tools for TensorRT and vLLM.
+- [GPTQModel](https://github.com/ModelCloud/GPTQModel) - Post-training 4-bit quantization, the maintained successor to AutoGPTQ. Works on NVIDIA, AMD and Intel GPUs.
 - [llama.cpp convert scripts](https://github.com/ggml-org/llama.cpp/blob/master/convert_hf_to_gguf.py) - Convert Hugging Face models to GGUF format. Essential for llama.cpp and Ollama.
 - [merge-quantize-keep-mtp](https://github.com/CastelDazur/merge-quantize-keep-mtp) - Rank-concat merge two LoRA adapters, then verify speculative-decoding (MTP) heads survive GGUF quantization. Dependency-free GGUF header reader.
+- [NVIDIA Model Optimizer](https://github.com/NVIDIA/Model-Optimizer) - Quantization, pruning, and distillation tools for TensorRT and vLLM.
+- [xformers](https://github.com/facebookresearch/xformers) - Memory-efficient attention implementations. Saves VRAM on long contexts.
 
 ## Fine-Tuning
 
 Train and adapt models on your own data locally.
 
-- [Unsloth](https://github.com/unslothai/unsloth) - 2x faster fine-tuning with 80% less memory. QLoRA and LoRA on a single GPU.
 - [axolotl](https://github.com/axolotl-ai-cloud/axolotl) - Fine-tuning driven by YAML configs. Supports LoRA, QLoRA, DPO, RLHF. Handles multi-GPU setups.
-- [PEFT](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning from Hugging Face. LoRA, prefix tuning, adapters.
-- [TRL](https://github.com/huggingface/trl) - Transformer Reinforcement Learning. RLHF, DPO, PPO training for language models. Works with PEFT.
 - [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory) - Web UI for fine-tuning 100+ models. No coding needed. Supports LoRA, QLoRA, full fine-tuning.
-- [torchtune](https://github.com/meta-pytorch/torchtune) - PyTorch-native fine-tuning library. Clean, hackable, well-documented. From the PyTorch team.
+- [PEFT](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning from Hugging Face. LoRA, prefix tuning, adapters.
 - [qlora-single-gpu-playbook](https://github.com/CastelDazur/qlora-single-gpu-playbook) - Guards for QLoRA on one GPU: VRAM gating, resume without the resume_from_checkpoint hang, checkpoint repair after a crash.
+- [torchtune](https://github.com/meta-pytorch/torchtune) - PyTorch-native fine-tuning library. Clean, hackable, well-documented. From the PyTorch team.
+- [TRL](https://github.com/huggingface/trl) - Transformer Reinforcement Learning. RLHF, DPO, PPO training for language models. Works with PEFT.
+- [Unsloth](https://github.com/unslothai/unsloth) - 2x faster fine-tuning with 80% less memory. QLoRA and LoRA on a single GPU.
 
 ## RAG & Knowledge
 
 Build local knowledge systems without sending your data anywhere.
 
-- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for RAG pipelines. Index your docs, query with LLMs. Supports 160+ data sources.
-- [LangChain](https://github.com/langchain-ai/langchain) - Framework for chaining LLM calls with tools, memory, and retrieval. Large ecosystem of integrations.
 - [ChromaDB](https://github.com/chroma-core/chroma) - Embedded vector database. pip install, start storing embeddings. No server needed.
-- [Qdrant](https://github.com/qdrant/qdrant) - Vector database with filtering, payload storage, and GPU acceleration. Good for production workloads.
-- [Milvus](https://github.com/milvus-io/milvus) - Scalable vector database. Overkill for personal use, good for teams and large datasets.
-- [Weaviate](https://github.com/weaviate/weaviate) - Vector database with hybrid search (vectors + BM25). Built-in modules for text/image.
 - [FAISS](https://github.com/facebookresearch/faiss) - Similarity search library from Meta. Fast, battle-tested. The underlying engine many tools use.
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Encrypted local knowledge store with CLI/MCP search, device sync, and scoped, expiring access grants. Developer alpha.
+- [LangChain](https://github.com/langchain-ai/langchain) - Framework for chaining LLM calls with tools, memory, and retrieval. Large ecosystem of integrations.
+- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for RAG pipelines. Index your docs, query with LLMs. Supports 160+ data sources.
+- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI assistants. Persistent context across conversations with local embedding and vector storage.
+- [Milvus](https://github.com/milvus-io/milvus) - Scalable vector database. Overkill for personal use, good for teams and large datasets.
+- [Qdrant](https://github.com/qdrant/qdrant) - Vector database with filtering, payload storage, and GPU acceleration. Good for production workloads.
+- [Screenpipe](https://github.com/screenpipe/screenpipe) - Local screen and audio capture with searchable history and MCP. Free for personal use; commercial needs a license.
 - [Sentence-Transformers](https://github.com/huggingface/sentence-transformers) - Compute embeddings locally. Pair with any vector DB above. 5000+ pre-trained models.
 - [Unstructured](https://github.com/Unstructured-IO/unstructured) - Extract text from PDFs, Word docs, HTML, images. Pre-processing for RAG pipelines.
-- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI assistants. Persistent context across conversations with local embedding and vector storage.
-- [Screenpipe](https://github.com/screenpipe/screenpipe) - Local screen and audio capture with searchable history and MCP. Free for personal use; commercial needs a license.
-- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Encrypted local knowledge store with CLI/MCP search, device sync, and scoped, expiring access grants. Developer alpha.
+- [Weaviate](https://github.com/weaviate/weaviate) - Vector database with hybrid search (vectors + BM25). Built-in modules for text/image.
 
 ## Orchestration & Agents
 
 Coordinate multiple models and tools locally.
 
-- [CrewAI](https://github.com/crewaiinc/crewai) - Multi-agent framework with role-based collaboration. Works with local models via Ollama.
-- [LangGraph](https://github.com/langchain-ai/langgraph) - Stateful multi-actor orchestration. Build complex agent workflows as graphs.
-- [AutoGen](https://github.com/microsoft/autogen) - Microsoft multi-agent framework. Note: AG2 is the community fork with active development.
 - [AG2](https://github.com/ag2ai/ag2) - Community-driven fork of AutoGen. Active development, multi-agent orchestration.
-- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft SDK for AI agent apps. .NET, Python, Java. Enterprise-focused.
-- [DSPy](https://github.com/stanfordnlp/dspy) - Programming framework for LM pipelines. Optimizes prompts and weights automatically. From Stanford NLP.
+- [Agent Meeting Room](https://github.com/GhravenLabs/Agent-Meeting-Room) - Flask web app for multi-agent group chat over Ollama-compatible models. Debate mode, SSE streaming, optional Obsidian-backed memory.
+- [AutoGen](https://github.com/microsoft/autogen) - Microsoft multi-agent framework. Note: AG2 is the community fork with active development.
+- [CrewAI](https://github.com/crewaiinc/crewai) - Multi-agent framework with role-based collaboration. Works with local models via Ollama.
 - [Dify](https://github.com/langgenius/dify) - Visual workflow builder for LLM apps. Drag-and-drop RAG, agents, chatbots. Self-hostable with local model support.
+- [DSPy](https://github.com/stanfordnlp/dspy) - Programming framework for LM pipelines. Optimizes prompts and weights automatically. From Stanford NLP.
+- [Instructor](https://github.com/567-labs/instructor) - Reliable structured outputs from any LLM via Pydantic models. Retries on validation failure. Works with local models via Ollama and LiteLLM.
+- [LangGraph](https://github.com/langchain-ai/langgraph) - Stateful multi-actor orchestration. Build complex agent workflows as graphs.
+- [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Programmable guardrails for LLM apps from NVIDIA. Input/output filters, fact-checking, dialogue policies. Wraps any local model.
 - [Open Interpreter](https://github.com/openinterpreter/openinterpreter) - Natural language interface to your computer. Runs code locally, controls files and apps. Works with local models via LiteLLM.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Desktop multi-agent workspace that can use local OpenAI-compatible model endpoints.
-- [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Programmable guardrails for LLM apps from NVIDIA. Input/output filters, fact-checking, dialogue policies. Wraps any local model.
 - [Outlines](https://github.com/dottxt-ai/outlines) - Structured generation for LLMs. Force outputs to follow JSON schema, regex, or context-free grammars. Works with llama.cpp, vLLM, transformers.
-- [Instructor](https://github.com/567-labs/instructor) - Reliable structured outputs from any LLM via Pydantic models. Retries on validation failure. Works with local models via Ollama and LiteLLM.
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft SDK for AI agent apps. .NET, Python, Java. Enterprise-focused.
 - [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Local agent memory lifecycle with SQLite/FTS recall, audit, and forgetting.
-- [Agent Meeting Room](https://github.com/GhravenLabs/Agent-Meeting-Room) - Flask web app for multi-agent group chat over Ollama-compatible models. Debate mode, SSE streaming, optional Obsidian-backed memory.
 
 ## Model Management
 
 Download, convert, and organize your local model collection.
 
-- [Hugging Face Hub](https://github.com/huggingface/huggingface_hub) - Download models from Hugging Face. CLI and Python API. Where most open models are hosted.
-- [Transformers](https://github.com/huggingface/transformers) - Load and run most open models. Foundation library for Hugging Face ecosystem.
 - [GGML](https://github.com/ggml-org/ggml) - Tensor library behind llama.cpp. Low-level but fast. Powers the GGUF ecosystem.
+- [Hugging Face Hub](https://github.com/huggingface/huggingface_hub) - Download models from Hugging Face. CLI and Python API. Where most open models are hosted.
 - [Ollama Model Library](https://ollama.com/library) - Pre-quantized models ready to pull with one command. Easiest way to get started.
+- [Transformers](https://github.com/huggingface/transformers) - Load and run most open models. Foundation library for Hugging Face ecosystem.
 
 ## Monitoring & Profiling
 
 Know what your GPU is actually doing.
 
+- [Garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner from NVIDIA. Probes for prompt injection, data leakage, jailbreaks, hallucination. Test your local model before shipping.
+- [gpu-memory-guard](https://github.com/CastelDazur/gpu-memory-guard) - Check available VRAM before loading GGUF models. Prevents OOM crashes with a single CLI command.
 - [GPUStack](https://github.com/gpustack/gpustack) - Manage GPU clusters. Scheduling, monitoring, multi-node inference.
-- [nvitop](https://github.com/XuehaiPan/nvitop) - Interactive NVIDIA GPU monitoring. Like htop for GPUs. Real-time process and memory tracking.
-- [Triton Inference Server](https://github.com/triton-inference-server/server) - NVIDIA production inference server with model analytics and dynamic batching.
 - [Langfuse](https://github.com/langfuse/langfuse) - Open-source LLM observability. Tracing, evals, and prompt management. Self-hostable.
 - [LangSmith](https://smith.langchain.com/) - LLM tracing and evaluation platform. Cloud-based (not local), but useful for debugging local model pipelines.
-- [nvidia-smi](https://developer.nvidia.com/system-management-interface) - Built-in NVIDIA tool. `watch -n 1 nvidia-smi` for real-time GPU monitoring.
-- [gpu-memory-guard](https://github.com/CastelDazur/gpu-memory-guard) - Check available VRAM before loading GGUF models. Prevents OOM crashes with a single CLI command.
-- [Garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner from NVIDIA. Probes for prompt injection, data leakage, jailbreaks, hallucination. Test your local model before shipping.
-- [Promptfoo](https://github.com/promptfoo/promptfoo) - CLI and library for evaluating and red-teaming LLM apps. Run test cases against local models, compare prompts, find regressions.
 - [llm-judge-jury](https://github.com/CastelDazur/llm-judge-jury) - Score instruction/response pairs with a jury of independent local judges and keep the consensus. Majority vote, arbiter on ties, reason clustering. For cleaning SFT datasets.
+- [nvidia-smi](https://developer.nvidia.com/system-management-interface) - Built-in NVIDIA tool. `watch -n 1 nvidia-smi` for real-time GPU monitoring.
+- [nvitop](https://github.com/XuehaiPan/nvitop) - Interactive NVIDIA GPU monitoring. Like htop for GPUs. Real-time process and memory tracking.
+- [Promptfoo](https://github.com/promptfoo/promptfoo) - CLI and library for evaluating and red-teaming LLM apps. Run test cases against local models, compare prompts, find regressions.
+- [Triton Inference Server](https://github.com/triton-inference-server/server) - NVIDIA production inference server with model analytics and dynamic batching.
 
 ## UI & Interfaces
 
 Chat with your local models through a proper interface.
 
-- [Open WebUI](https://github.com/open-webui/open-webui) - ChatGPT-like interface for Ollama and OpenAI-compatible APIs. RAG, web search, model switching built in. Active development.
-- [Text Generation WebUI](https://github.com/oobabooga/textgen) - Gradio UI with extensions. Supports many backends and model formats. Highly configurable.
+- [Arelis](https://github.com/sAnct1x/Arelis) - Windows research assistant on Ollama with web search and its own browser. Asks before it writes or sends.
+- [Hollama](https://github.com/fmaclen/hollama) - Minimal web UI for Ollama. Lightweight alternative to Open WebUI. Quick to set up.
 - [Jan](https://github.com/janhq/jan) - Desktop app for local AI. Clean UI, offline-first. Downloads and manages models for you.
 - [Msty](https://msty.ai) - Desktop app connecting to local and remote models. Free tier available. Clean, native feel.
-- [Hollama](https://github.com/fmaclen/hollama) - Minimal web UI for Ollama. Lightweight alternative to Open WebUI. Quick to set up.
+- [Open WebUI](https://github.com/open-webui/open-webui) - ChatGPT-like interface for Ollama and OpenAI-compatible APIs. RAG, web search, model switching built in. Active development.
 - [SillyTavern](https://github.com/SillyTavern/SillyTavern) - Chat interface with character cards, group chats, extensions. Popular in the creative/RP community.
-- [Arelis](https://github.com/sAnct1x/Arelis) - Windows research assistant on Ollama with web search and its own browser. Asks before it writes or sends.
+- [Text Generation WebUI](https://github.com/oobabooga/textgen) - Gradio UI with extensions. Supports many backends and model formats. Highly configurable.
 
 ## Code Assistants
 
 AI-powered coding without sending your code to the cloud.
 
-- [Continue](https://github.com/continuedev/continue) - VS Code / JetBrains AI pair programmer. Works with Ollama, llama.cpp, any local model.
-- [Tabby](https://github.com/TabbyML/tabby) - Self-hosted code completion and chat. Runs on your GPU. GitHub Copilot alternative.
 - [Aider](https://github.com/Aider-AI/aider) - AI pair programming in your terminal. Edit files, run tests, commit. Works with local models via Ollama/LiteLLM.
-- [llm](https://github.com/simonw/llm) - CLI tool for interacting with LLMs. Plugins for local models. From the creator of Datasette.
 - [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) - Terminal coding assistant running open-weight models on your machine via a llama.cpp fork. No API key needed. Developer preview, so expect breaking changes.
+- [Continue](https://github.com/continuedev/continue) - VS Code / JetBrains AI pair programmer. Works with Ollama, llama.cpp, any local model.
+- [llm](https://github.com/simonw/llm) - CLI tool for interacting with LLMs. Plugins for local models. From the creator of Datasette.
+- [Tabby](https://github.com/TabbyML/tabby) - Self-hosted code completion and chat. Runs on your GPU. GitHub Copilot alternative.
 - [vixl](https://github.com/vixl-ai/vixl) - Local-first desktop coding agent with your own API keys, Ollama and other OpenAI-compatible hosts, and MCP.
 
 ## Voice & Audio
 
 Speech recognition and synthesis on your hardware.
 
-- [Whisper](https://github.com/openai/whisper) - OpenAI speech-to-text. Runs locally despite the name. Multiple model sizes from tiny to large-v3.
+- [akou](https://github.com/GeiserX/akou) - Call recorder for macOS with on-device transcription and speaker labels. Also an OpenAI-compatible transcription server in Docker.
+- [F5-TTS](https://github.com/SWivid/F5-TTS) - High-quality text-to-speech with voice cloning from 15s reference audio. Diffusion-based.
 - [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) - 4x faster Whisper using CTranslate2. Same quality, less VRAM. Drop-in replacement.
-- [WhisperX](https://github.com/m-bain/whisperX) - Whisper with word-level timestamps and speaker diarization. Good for transcription workflows.
+- [Kokoro TTS](https://github.com/hexgrad/kokoro) - Lightweight text-to-speech with natural-sounding voices. 82M parameters, runs on CPU. Apache 2.0 licensed.
 - [Piper](https://github.com/OHF-Voice/piper1-gpl) - Fast local text-to-speech. Runs on a Raspberry Pi. Many voice models available.
+- [Plainsay](https://github.com/conrader/plainsay) - Mac dictation with free Local Whisper or Parakeet, no account. MIT-licensed client; optional paid Cloud transcription uploads audio.
 - [Speaches](https://github.com/speaches-ai/speaches) - OpenAI-compatible speech API server. Drop-in local replacement for OpenAI TTS/STT.
+- [Whisper](https://github.com/openai/whisper) - OpenAI speech-to-text. Runs locally despite the name. Multiple model sizes from tiny to large-v3.
 - [WhisperKit](https://github.com/argmaxinc/argmax-oss-swift) - On-device speech recognition optimized for Apple Silicon. Swift framework.
 - [WhisperLive](https://github.com/collabora/WhisperLive) - Real-time streaming transcription. Low latency, works with microphone input.
-- [F5-TTS](https://github.com/SWivid/F5-TTS) - High-quality text-to-speech with voice cloning from 15s reference audio. Diffusion-based.
-- [Kokoro TTS](https://github.com/hexgrad/kokoro) - Lightweight text-to-speech with natural-sounding voices. 82M parameters, runs on CPU. Apache 2.0 licensed.
-- [akou](https://github.com/GeiserX/akou) - Call recorder for macOS with on-device transcription and speaker labels. Also an OpenAI-compatible transcription server in Docker.
-- [Plainsay](https://github.com/conrader/plainsay) - Mac dictation with free Local Whisper or Parakeet, no account. MIT-licensed client; optional paid Cloud transcription uploads audio.
+- [WhisperX](https://github.com/m-bain/whisperX) - Whisper with word-level timestamps and speaker diarization. Good for transcription workflows.
 
 ## Image & Video
 
 Generate, edit, and analyze images and video locally.
 
-- [ComfyUI](https://github.com/Comfy-Org/ComfyUI) - Node-based workflow for Stable Diffusion, FLUX, SD3, SDXL. Visual pipeline editor.
-- [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Feature-rich Gradio interface for Stable Diffusion. Large extension ecosystem.
-- [Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) - Optimized SD WebUI fork. Better VRAM efficiency and speed.
-- [Fooocus](https://github.com/lllyasviel/Fooocus) - Simplified image generation. Fewer options, faster results. Good for non-technical users.
-- [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Creative engine for Stable Diffusion with professional UI. Node-based workflows.
-- [FLUX.1](https://github.com/black-forest-labs/flux) - Image generation from Black Forest Labs. FLUX.1-dev runs locally on 12GB+ VRAM.
 - [AI Segmentation](https://github.com/TerraLabAI/QGIS_AI-Segmentation) - QGIS plugin that outlines buildings, trees and other objects in satellite and drone imagery. Local mode runs SAM 2.1 on your CPU; automatic mode is cloud.
+- [ComfyUI](https://github.com/Comfy-Org/ComfyUI) - Node-based workflow for Stable Diffusion, FLUX, SD3, SDXL. Visual pipeline editor.
+- [FLUX.1](https://github.com/black-forest-labs/flux) - Image generation from Black Forest Labs. FLUX.1-dev runs locally on 12GB+ VRAM.
+- [Fooocus](https://github.com/lllyasviel/Fooocus) - Simplified image generation. Fewer options, faster results. Good for non-technical users.
+- [Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) - Optimized SD WebUI fork. Better VRAM efficiency and speed.
+- [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Creative engine for Stable Diffusion with professional UI. Node-based workflows.
 - [NanoAvatar](https://github.com/wpydcr/NanoAvatar) - Talking avatars generated on-device on Android or NVIDIA GPUs. Code MIT, lip-sync weights CC BY-NC.
 - [Phosphene AI](https://github.com/mrbizarro/Phosphene) - Local video with sound, images and songs on Apple Silicon via MLX; needs 16 GB+.
+- [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Feature-rich Gradio interface for Stable Diffusion. Large extension ecosystem.
 
 ## Privacy-First Tools
 
 Interact with documents without data leaving your machine.
 
-- [PrivateGPT](https://github.com/zylon-ai/private-gpt) - Chat with your documents 100% privately. RAG pipeline built in. No data leaves your machine.
-- [LocalGPT](https://github.com/PromtEngineer/localGPT) - Chat with documents using local models. Inspired by PrivateGPT with more model options.
-- [Onyx](https://github.com/onyx-dot-app/onyx) - Search and chat over internal documents, formerly Danswer. Can use local models. Self-hosted.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - All-in-one AI desktop app with local RAG and agent support. Connects to Ollama.
-- [Off Grid AI Desktop](https://github.com/off-grid-ai/OGAD) - Private local-first macOS app: chat, RAG, image generation, voice dictation, MCP connectors. Runs on-device. AGPL-3.0.
 - [light-ocr](https://github.com/arcships/light-ocr) - Offline OCR library and CLI for Node.js and C++. PP-OCRv6 via ONNX Runtime; no Python runtime.
+- [LocalGPT](https://github.com/PromtEngineer/localGPT) - Chat with documents using local models. Inspired by PrivateGPT with more model options.
+- [Off Grid AI Desktop](https://github.com/off-grid-ai/OGAD) - Private local-first macOS app: chat, RAG, image generation, voice dictation, MCP connectors. Runs on-device. AGPL-3.0.
+- [Onyx](https://github.com/onyx-dot-app/onyx) - Search and chat over internal documents, formerly Danswer. Can use local models. Self-hosted.
+- [PrivateGPT](https://github.com/zylon-ai/private-gpt) - Chat with your documents 100% privately. RAG pipeline built in. No data leaves your machine.
 - [ThreadShelf](https://github.com/ChrystianSchutz/ThreadShelf) - Local archive and semantic search for ChatGPT, Claude, Grok and other chat exports, with MCP and llama.cpp continuation.
 
 ## Unified Gateways
@@ -222,6 +222,10 @@ Step-by-step guides for common tasks.
 - [Getting Started](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/getting-started.md) - Install Ollama, run your first model, add a chat UI, use the API.
 - [Choosing an Inference Engine](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/choosing-inference-engine.md) - Decision tables, performance benchmarks, and model format compatibility across 10 engines.
 - [VRAM Requirements](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/vram-requirements.md) - GPU memory calculator, what fits on your card, popular model sizes, and tips for fitting larger models.
+- [Field notes: KV cache q8_0 vs q4_0](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-kv-cache.md) - Measured on an RTX 5090: q8_0 decoded 65% faster than q4_0 at long context.
+- [Field notes: MTP speculative decoding](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-mtp-speculative-decoding.md) - +39% tokens per second on Qwen3.6-27B, and how to check that your GGUF has the heads.
+- [Field notes: llama.cpp build vs new models](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-llama-cpp-build-age.md) - A new model looped on an older build. What we checked and what we could not separate.
+- [Field notes: QLoRA on one 32 GB GPU](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-qlora-one-gpu.md) - Five failures from a 27B run on an RTX 5090, with the fix for each.
 
 ---
 
@@ -229,12 +233,12 @@ Step-by-step guides for common tasks.
 
 Figure out what you need and what fits.
 
-- [llama.cpp CUDA Benchmarks](https://github.com/ggml-org/llama.cpp/discussions/15013) - Community llama-bench results on NVIDIA cards, RTX 50-series included. People post new hardware as they get it.
-- [llama.cpp Apple Silicon Benchmarks](https://github.com/ggml-org/llama.cpp/discussions/4167) - Same idea for M-series Macs, M1 onward.
-- [GPU Benchmarks for LLM Inference](https://github.com/XiongjieDai/GPU-Benchmarks-on-LLM-Inference) - Measured tokens/sec for RTX 3090, 4090, A100, H100 and Apple M1 to M3. Numbers date from 2024, so nothing newer is covered.
-- [Can I Run This Model?](https://huggingface.co/spaces/Vokturz/can-it-run-llm) - VRAM calculator. Enter your GPU, see what fits.
-- [LocalLLaMA Wiki](https://www.reddit.com/r/LocalLLaMA/wiki/) - Community-maintained knowledge base for local AI hardware and software.
 - [AI Hardware Fit](https://jaeseok614.github.io/ai-hardware-fit/) - Match models to GPUs and compare quantization-aware VRAM needs, speed estimates, and hardware costs for local inference.
+- [Can I Run This Model?](https://huggingface.co/spaces/Vokturz/can-it-run-llm) - VRAM calculator. Enter your GPU, see what fits.
+- [GPU Benchmarks for LLM Inference](https://github.com/XiongjieDai/GPU-Benchmarks-on-LLM-Inference) - Measured tokens/sec for RTX 3090, 4090, A100, H100 and Apple M1 to M3. Numbers date from 2024, so nothing newer is covered.
+- [llama.cpp Apple Silicon Benchmarks](https://github.com/ggml-org/llama.cpp/discussions/4167) - Same idea for M-series Macs, M1 onward.
+- [llama.cpp CUDA Benchmarks](https://github.com/ggml-org/llama.cpp/discussions/15013) - Community llama-bench results on NVIDIA cards, RTX 50-series included. People post new hardware as they get it.
+- [LocalLLaMA Wiki](https://www.reddit.com/r/LocalLLaMA/wiki/) - Community-maintained knowledge base for local AI hardware and software.
 
 ---
 
@@ -244,6 +248,6 @@ Contributions welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## Related Lists
 
-- [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM) - Broader LLM resources.
 - [Awesome Generative AI](https://github.com/steven2358/awesome-generative-ai) - Generative AI tools and research.
+- [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM) - Broader LLM resources.
 - [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Self-hosted software.
