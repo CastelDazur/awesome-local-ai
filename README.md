@@ -49,6 +49,7 @@ Run LLMs on your machine.
 - [FastChat](https://github.com/lm-sys/FastChat) - Serving platform from LMSYS (creators of Chatbot Arena). Multi-model serving with OpenAI-compatible API.
 - [Sonar](https://github.com/dphnAI/sonar) - High-throughput inference engine forked from vLLM, formerly Aphrodite Engine. Multi-user serving with GPTQ, AWQ, EXL2 support.
 - [LMDeploy](https://github.com/InternLM/lmdeploy) - Toolkit for compressing, quantizing, and serving LLMs from InternLM. Reports higher throughput than vLLM in its own benchmarks.
+- [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) - Apple Silicon LLM server built on MLX, with OpenAI- and Anthropic-compatible APIs and a Mac app.
 
 ## Python & Language Bindings
 
@@ -96,6 +97,8 @@ Build local knowledge systems without sending your data anywhere.
 - [Sentence-Transformers](https://github.com/huggingface/sentence-transformers) - Compute embeddings locally. Pair with any vector DB above. 5000+ pre-trained models.
 - [Unstructured](https://github.com/Unstructured-IO/unstructured) - Extract text from PDFs, Word docs, HTML, images. Pre-processing for RAG pipelines.
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI assistants. Persistent context across conversations with local embedding and vector storage.
+- [Screenpipe](https://github.com/screenpipe/screenpipe) - Local screen and audio capture with searchable history and MCP. Free for personal use; commercial needs a license.
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Encrypted local knowledge store with CLI/MCP search, device sync, and scoped, expiring access grants. Developer alpha.
 
 ## Orchestration & Agents
 
@@ -150,6 +153,7 @@ Chat with your local models through a proper interface.
 - [Msty](https://msty.ai) - Desktop app connecting to local and remote models. Free tier available. Clean, native feel.
 - [Hollama](https://github.com/fmaclen/hollama) - Minimal web UI for Ollama. Lightweight alternative to Open WebUI. Quick to set up.
 - [SillyTavern](https://github.com/SillyTavern/SillyTavern) - Chat interface with character cards, group chats, extensions. Popular in the creative/RP community.
+- [Arelis](https://github.com/sAnct1x/Arelis) - Windows research assistant on Ollama with web search and its own browser. Asks before it writes or sends.
 
 ## Code Assistants
 
@@ -160,6 +164,7 @@ AI-powered coding without sending your code to the cloud.
 - [Aider](https://github.com/Aider-AI/aider) - AI pair programming in your terminal. Edit files, run tests, commit. Works with local models via Ollama/LiteLLM.
 - [llm](https://github.com/simonw/llm) - CLI tool for interacting with LLMs. Plugins for local models. From the creator of Datasette.
 - [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) - Terminal coding assistant running open-weight models on your machine via a llama.cpp fork. No API key needed. Developer preview, so expect breaking changes.
+- [vixl](https://github.com/vixl-ai/vixl) - Local-first desktop coding agent with your own API keys, Ollama and other OpenAI-compatible hosts, and MCP.
 
 ## Voice & Audio
 
@@ -174,6 +179,8 @@ Speech recognition and synthesis on your hardware.
 - [WhisperLive](https://github.com/collabora/WhisperLive) - Real-time streaming transcription. Low latency, works with microphone input.
 - [F5-TTS](https://github.com/SWivid/F5-TTS) - High-quality text-to-speech with voice cloning from 15s reference audio. Diffusion-based.
 - [Kokoro TTS](https://github.com/hexgrad/kokoro) - Lightweight text-to-speech with natural-sounding voices. 82M parameters, runs on CPU. Apache 2.0 licensed.
+- [akou](https://github.com/GeiserX/akou) - Call recorder for macOS with on-device transcription and speaker labels. Also an OpenAI-compatible transcription server in Docker.
+- [Plainsay](https://github.com/conrader/plainsay) - Mac dictation with free Local Whisper or Parakeet, no account. MIT-licensed client; optional paid Cloud transcription uploads audio.
 
 ## Image & Video
 
@@ -187,6 +194,7 @@ Generate, edit, and analyze images and video locally.
 - [FLUX.1](https://github.com/black-forest-labs/flux) - Image generation from Black Forest Labs. FLUX.1-dev runs locally on 12GB+ VRAM.
 - [AI Segmentation](https://github.com/TerraLabAI/QGIS_AI-Segmentation) - QGIS plugin that outlines buildings, trees and other objects in satellite and drone imagery. Local mode runs SAM 2.1 on your CPU; automatic mode is cloud.
 - [NanoAvatar](https://github.com/wpydcr/NanoAvatar) - Talking avatars generated on-device on Android or NVIDIA GPUs. Code MIT, lip-sync weights CC BY-NC.
+- [Phosphene AI](https://github.com/mrbizarro/Phosphene) - Local video with sound, images and songs on Apple Silicon via MLX; needs 16 GB+.
 
 ## Privacy-First Tools
 
@@ -198,6 +206,7 @@ Interact with documents without data leaving your machine.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - All-in-one AI desktop app with local RAG and agent support. Connects to Ollama.
 - [Off Grid AI Desktop](https://github.com/off-grid-ai/OGAD) - Private local-first macOS app: chat, RAG, image generation, voice dictation, MCP connectors. Runs on-device. AGPL-3.0.
 - [light-ocr](https://github.com/arcships/light-ocr) - Offline OCR library and CLI for Node.js and C++. PP-OCRv6 via ONNX Runtime; no Python runtime.
+- [ThreadShelf](https://github.com/ChrystianSchutz/ThreadShelf) - Local archive and semantic search for ChatGPT, Claude, Grok and other chat exports, with MCP and llama.cpp continuation.
 
 ## Unified Gateways
 
@@ -225,6 +234,7 @@ Figure out what you need and what fits.
 - [GPU Benchmarks for LLM Inference](https://github.com/XiongjieDai/GPU-Benchmarks-on-LLM-Inference) - Measured tokens/sec for RTX 3090, 4090, A100, H100 and Apple M1 to M3. Numbers date from 2024, so nothing newer is covered.
 - [Can I Run This Model?](https://huggingface.co/spaces/Vokturz/can-it-run-llm) - VRAM calculator. Enter your GPU, see what fits.
 - [LocalLLaMA Wiki](https://www.reddit.com/r/LocalLLaMA/wiki/) - Community-maintained knowledge base for local AI hardware and software.
+- [AI Hardware Fit](https://jaeseok614.github.io/ai-hardware-fit/) - Match models to GPUs and compare quantization-aware VRAM needs, speed estimates, and hardware costs for local inference.
 
 ---
 
