@@ -149,6 +149,7 @@ Chat with your local models through a proper interface.
 
 - [Arelis](https://github.com/sAnct1x/Arelis) - Windows research assistant on Ollama with web search and its own browser. Asks before it writes or sends.
 - [Hollama](https://github.com/fmaclen/hollama) - Minimal web UI for Ollama. Lightweight alternative to Open WebUI. Quick to set up.
+- [Hearthscale](https://hearthscale.com) - Desktop app for Windows and Linux that runs chat, voice, image, video and music models. Free, and one device can serve models to the others.
 - [Jan](https://github.com/janhq/jan) - Desktop app for local AI. Clean UI, offline-first. Downloads and manages models for you.
 - [Msty](https://msty.ai) - Desktop app connecting to local and remote models. Free tier available. Clean, native feel.
 - [Open WebUI](https://github.com/open-webui/open-webui) - ChatGPT-like interface for Ollama and OpenAI-compatible APIs. RAG, web search, model switching built in. Active development.
