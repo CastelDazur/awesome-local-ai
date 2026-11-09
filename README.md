@@ -234,6 +234,7 @@ Step-by-step guides for common tasks.
 Figure out what you need and what fits.
 
 - [AI Hardware Fit](https://jaeseok614.github.io/ai-hardware-fit/) - Match models to GPUs and compare quantization-aware VRAM needs, speed estimates, and hardware costs for local inference.
+- [Local Image Model VRAM Guide](https://www.nano-banana.live/blog/local-ai-image-model-vram-requirements.html) - Published VRAM needs for SDXL, Qwen-Image-Edit, FLUX-class and HunyuanImage weights, and why they vary.
 - [Can I Run This Model?](https://huggingface.co/spaces/Vokturz/can-it-run-llm) - VRAM calculator. Enter your GPU, see what fits.
 - [GPU Benchmarks for LLM Inference](https://github.com/XiongjieDai/GPU-Benchmarks-on-LLM-Inference) - Measured tokens/sec for RTX 3090, 4090, A100, H100 and Apple M1 to M3. Numbers date from 2024, so nothing newer is covered.
 - [llama.cpp Apple Silicon Benchmarks](https://github.com/ggml-org/llama.cpp/discussions/4167) - Same idea for M-series Macs, M1 onward.
