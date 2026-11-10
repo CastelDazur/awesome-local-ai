@@ -34,6 +34,7 @@ Run LLMs on your machine.
 - [FastChat](https://github.com/lm-sys/FastChat) - Serving platform from LMSYS (creators of Chatbot Arena). Multi-model serving with OpenAI-compatible API.
 - [Ferrum](https://github.com/sizzlecar/ferrum-infer-rs) - Rust-native LLM serving with OpenAI-compatible API on Metal, CUDA or CPU. One binary, no Python runtime.
 - [GPT4All](https://github.com/nomic-ai/gpt4all) - Desktop app for local models. Download a model, start chatting. Includes document Q&A.
+- [Kapitsa](https://github.com/nace-ai/kapitsa) - LLM inference engine for Apple Silicon Macs on hand-written Metal kernels and the Neural Engine. OpenAI- and Anthropic-compatible APIs.
 - [KoboldCpp](https://github.com/LostRuins/koboldcpp) - One-file GGUF inference with built-in UI. Good for creative writing and roleplay.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++ with GGUF quantization. Most widely used inference backend for local setups. Supports NVIDIA, AMD, Intel, Apple Silicon.
 - [llamafile](https://github.com/mozilla-ai/llamafile) - Distribute LLMs as single executable files. No install, just run. Cross-platform.
