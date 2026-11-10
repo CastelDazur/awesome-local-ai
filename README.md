@@ -240,6 +240,7 @@ Figure out what you need and what fits.
 - [llama.cpp Apple Silicon Benchmarks](https://github.com/ggml-org/llama.cpp/discussions/4167) - Same idea for M-series Macs, M1 onward.
 - [llama.cpp CUDA Benchmarks](https://github.com/ggml-org/llama.cpp/discussions/15013) - Community llama-bench results on NVIDIA cards, RTX 50-series included. People post new hardware as they get it.
 - [LocalLLaMA Wiki](https://www.reddit.com/r/LocalLLaMA/wiki/) - Community-maintained knowledge base for local AI hardware and software.
+- [RigBase](https://getrigbase.com/) - Measured tokens/sec for local LLMs on home rigs, each result linked to its source. [CC BY 4.0 data](https://github.com/getrigbase/rigbase-data).
 
 ---
 
