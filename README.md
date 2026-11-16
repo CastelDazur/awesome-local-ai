@@ -126,6 +126,7 @@ Download, convert, and organize your local model collection.
 
 - [GGML](https://github.com/ggml-org/ggml) - Tensor library behind llama.cpp. Low-level but fast. Powers the GGUF ecosystem.
 - [Hugging Face Hub](https://github.com/huggingface/huggingface_hub) - Download models from Hugging Face. CLI and Python API. Where most open models are hosted.
+- [Local LLM Manager](https://github.com/einfachllm/local-llm-manager) - Web dashboard to run, schedule and monitor serving recipes across machines. Docker or native, NVIDIA and Apple silicon.
 - [Ollama Model Library](https://ollama.com/library) - Pre-quantized models ready to pull with one command. Easiest way to get started.
 - [Transformers](https://github.com/huggingface/transformers) - Load and run most open models. Foundation library for Hugging Face ecosystem.
 
