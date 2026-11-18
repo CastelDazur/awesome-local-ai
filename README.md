@@ -227,6 +227,7 @@ Step-by-step guides for common tasks.
 - [Field notes: MTP speculative decoding](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-mtp-speculative-decoding.md) - +39% tokens per second on Qwen3.6-27B, and how to check that your GGUF has the heads.
 - [Field notes: llama.cpp build vs new models](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-llama-cpp-build-age.md) - A new model looped on an older build. What we checked and what we could not separate.
 - [Field notes: QLoRA on one 32 GB GPU](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-qlora-one-gpu.md) - Five failures from a 27B run on an RTX 5090, with the fix for each.
+- [Field notes: teaching a 7B model two books](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-books-into-weights.md) - What stuck, what was forgotten and which fix failed when we trained a 7B model on two books.
 
 ---
 
