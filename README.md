@@ -175,6 +175,7 @@ Speech recognition and synthesis on your hardware.
 - [F5-TTS](https://github.com/SWivid/F5-TTS) - High-quality text-to-speech with voice cloning from 15s reference audio. Diffusion-based.
 - [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) - 4x faster Whisper using CTranslate2. Same quality, less VRAM. Drop-in replacement.
 - [Kokoro TTS](https://github.com/hexgrad/kokoro) - Lightweight text-to-speech with natural-sounding voices. 82M parameters, runs on CPU. Apache 2.0 licensed.
+- [Live Translator](https://github.com/umutcetinkaya/live-translator) - Mac menu bar app with live translated subtitles for any system audio. TranslateGemma on MLX, no account.
 - [Piper](https://github.com/OHF-Voice/piper1-gpl) - Fast local text-to-speech. Runs on a Raspberry Pi. Many voice models available.
 - [Plainsay](https://github.com/conrader/plainsay) - Mac dictation with free Local Whisper or Parakeet, no account. MIT-licensed client; optional paid Cloud transcription uploads audio.
 - [Speaches](https://github.com/speaches-ai/speaches) - OpenAI-compatible speech API server. Drop-in local replacement for OpenAI TTS/STT.
