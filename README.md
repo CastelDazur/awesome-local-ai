@@ -153,6 +153,7 @@ Chat with your local models through a proper interface.
 - [Jan](https://github.com/janhq/jan) - Desktop app for local AI. Clean UI, offline-first. Downloads and manages models for you.
 - [Msty](https://msty.ai) - Desktop app connecting to local and remote models. Free tier available. Clean, native feel.
 - [Open WebUI](https://github.com/open-webui/open-webui) - ChatGPT-like interface for Ollama and OpenAI-compatible APIs. RAG, web search, model switching built in. Active development.
+- [Outlier](https://outlier.host/?ref=casteldazur) - Mac app running open models offline on Apple Silicon: chat, a coding agent. Free tier, paid Pro.
 - [SillyTavern](https://github.com/SillyTavern/SillyTavern) - Chat interface with character cards, group chats, extensions. Popular in the creative/RP community.
 - [Text Generation WebUI](https://github.com/oobabooga/textgen) - Gradio UI with extensions. Supports many backends and model formats. Highly configurable.
 
