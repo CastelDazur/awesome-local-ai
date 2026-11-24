@@ -32,6 +32,7 @@ If a tool doesn't fit existing categories, propose a new one in your PR descript
 ## What doesn't belong
 
 - Cloud-only services (no local execution option)
+- Closed-source apps, as a rule, even with a free tier. Open-source projects come first; the few closed ones already listed stay
 - Paid tools without a functional free/open-source tier
 - Archived repos, and projects abandoned with nothing maintained to point to instead
 - Wrappers that don't add meaningful functionality
